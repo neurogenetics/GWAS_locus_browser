@@ -1,10 +1,3 @@
-# # GWAS Locus Browser Constraint Script
-# - **Author** - Frank Grenn
-# - **Date Started** - November 2019
-# - **Quick Description:** format constraint gene data for app
-# - **Data:** 
-# input files obtained from: [gnomAD](https://gnomad.broadinstitute.org/downloads)
-
 import pandas as pd
 import numpy as np
 
@@ -33,16 +26,16 @@ constraint = pd.read_csv("constraint/gnomad.v2.1.1.lof_metrics.by_gene.txt", sep
 evidence = pd.read_csv("genes_by_locus.csv")
 
 
-constraint_data = pd.merge(evidence, constraint, how='left', left_on='Gene', right_on = 'gene')
+constraint_data = pd.merge(evidence, constraint, how='left', left_on='GENE', right_on = 'gene')
 
 #some of the genes in the constraint data file show up more than once. this removes those and keeps the first entry for the gene
-constraint_data = constraint_data.drop_duplicates(subset=['Gene','Locusnumber'], keep='first')
+constraint_data = constraint_data.drop_duplicates(subset=['GWAS','GENE','LOC_NUM'], keep='first')
 
 #check if any of the upper limit of the CIs are less than 0.35 for significance
-constraint_data['Variant Intolerant'] = constraint_data.apply(lambda x: isConstraintSignificant(x.oe_mis_upper,x.oe_syn_upper,x.oe_lof_upper),axis=1)
+constraint_data['Variant_Intolerant'] = constraint_data.apply(lambda x: isConstraintSignificant(x.oe_mis_upper,x.oe_syn_upper,x.oe_lof_upper),axis=1)
 
 
-evidence_constraint = constraint_data[['Gene','Locusnumber', 'Variant Intolerant']]
+evidence_constraint = constraint_data[['GWAS','GENE','LOC_NUM', 'Variant_Intolerant']]
 evidence_constraint.to_csv("evidence/evidence_constraint.csv", index = False)
 
 
@@ -54,7 +47,7 @@ constraint_data['mis z'] = constraint_data.apply(lambda x: formatZ(x.mis_z), axi
 constraint_data['syn z'] = constraint_data.apply(lambda x: formatZ(x.syn_z), axis=1)
 constraint_data['pLI'] = constraint_data.apply(lambda x: formatZ(x.pLI), axis=1)
 
-constraint_data = constraint_data[['Gene', 'mis z', 'mis o/e','syn z', 'syn o/e', 'pLI', 'lof o/e']]
+constraint_data = constraint_data[['GENE', 'mis z', 'mis o/e','syn z', 'syn o/e', 'pLI', 'lof o/e']]
 
 
 constraint_data.to_csv("results/ConstraintData.csv", index=False)

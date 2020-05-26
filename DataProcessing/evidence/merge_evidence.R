@@ -10,24 +10,27 @@ library(data.table)
 evidence <- fread("genes_by_locus.csv")
 
 try(meta5nom <- fread("evidence/evidence_meta5nom.csv"))
-try(evidence <- merge(x = evidence, y = meta5nom, by = c("Gene","Locusnumber"), all.x = TRUE))
+try(evidence <- merge(x = evidence, y = meta5nom, by = c("GWAS","GENE","LOC_NUM"), all.x = TRUE))
+
+#try(qtl <- fread("evidence/evidence_qtl.csv"))
+#try(evidence <- merge(x = evidence, y = qtl, by = c("Gene","Locusnumber"), all.x = TRUE))
 
 try(burden <- fread("evidence/evidence_burden.csv"))
-try(evidence <- merge(x = evidence, y = burden, by = c("Gene","Locusnumber"), all.x = TRUE))
+try(evidence <- merge(x = evidence, y = burden, by = c("GWAS","GENE","LOC_NUM"), all.x = TRUE))
 
 try(expression <- fread("evidence/evidence_expression.csv"))
-try(evidence <- merge(x = evidence, y = expression, by = c("Gene","Locusnumber"), all.x = TRUE))
+try(evidence <- merge(x = evidence, y = expression, by = c("GWAS","GENE","LOC_NUM"), all.x = TRUE))
 
 try(literature <- fread("evidence/evidence_literature.csv"))
-try(evidence <- merge(x = evidence, y = literature, by = c("Gene","Locusnumber"), all.x = TRUE))
+try(evidence <- merge(x = evidence, y = literature, by = c("GWAS","GENE","LOC_NUM"), all.x = TRUE))
 
 try(constraint <- fread("evidence/evidence_constraint.csv"))
-try(evidence <- merge(x = evidence, y = constraint, by = c("Gene","Locusnumber"), all.x = TRUE))
+try(evidence <- merge(x = evidence, y = constraint, by = c("GWAS","GENE","LOC_NUM"), all.x = TRUE))
 
 try(pdgenes <- fread("evidence/evidence_pdgenes.csv"))
-try(evidence <- merge(x = evidence, y = pdgenes, by = c("Gene","Locusnumber"), all.x = TRUE))
+try(evidence <- merge(x = evidence, y = pdgenes, by = c("GWAS","GENE","LOC_NUM"), all.x = TRUE))
 
 try(diseasegenes <- fread("evidence/evidence_diseasegenes.csv"))
-try(evidence <- merge(x = evidence, y = diseasegenes, by = c("Gene","Locusnumber"), all.x = TRUE))
+try(evidence <- merge(x = evidence, y = diseasegenes, by = c("GWAS","GENE","LOC_NUM"), all.x = TRUE))
 
 write.csv(evidence, "evidence/evidence_per_gene.csv", row.names = FALSE)

@@ -2,8 +2,9 @@ library("rvest")
 library("tidyverse")
 library("stringr")
 library("data.table")
+library("httr")
 
-genes <- fread("$PATH1/genes_by_locus.csv")
+genes <- fread("/path/to/genes_by_locus.csv")
 
 gene_names <- unique(genes$Gene)
 
@@ -11,12 +12,8 @@ completed_genes <- NA
 if(file.exists("GeneCardDescriptions.txt"))
 {
   description_df <- fread("GeneCardDescriptions.txt",sep="\t")
-  completed_genes <- progress_df$Gene
+  completed_genes <- description_df$Gene
 }
-# if (!file.exists("GeneCardDescriptions.txt"))
-# {
-#   description_df <- data.frame(Gene=character(),Description=character())
-# }
 
 i<-0
 for(gene in gene_names) {

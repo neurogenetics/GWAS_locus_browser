@@ -1,29 +1,48 @@
 # GWAS Locus Browser Gene List Scripts
-- **Author** - Cornelis Blauwendraat
+- **Author** - Frank Grenn and Cornelis Blauwendraat
 - **Date Started** - June 2019
-- **Quick Description:** get all genes 1 Mb up and downstream of each risk variant. also includes code to get summary stats (including rsids) for risk variants.
+- **Quick Description:** 
+  - gets all genes 1 Mb up and downstream of each risk variant for all gwases
+  - gathers basic summary statistics for a new gwas study
+  - updates the `genes_by_locus.csv` file with new gwas genes. This file is important to other data processing scripts
+  - updates the `gwas_risk_variants.csv` file with new gwas risk variants. This file is also important to other data processing scripts. 
+  - also includes code to harmonize summary statistics for the different GWASes to make it easier to run the other scripts. 
 - **Data:** 
-input files obtained from: [META5](https://www.ncbi.nlm.nih.gov/pubmed/31701892)
+input files obtained from: [META5](https://www.ncbi.nlm.nih.gov/pubmed/31701892), [Asian GWAS](https://jamanetwork.com/journals/jamaneurology/fullarticle/2764340), [Progression GWAS](https://ng.neurology.org/content/5/4/e348)
 
 ## Layout
 ```
 |-- AppDataProcessing
 |   |-- genes_by_locus.csv
+|   |-- gwas_risk_variants.csv
 |   |-- genelist
-|   |   |-- prep_code.sh
+|   |   |-- Loci_Gene_List.ipynb
+|   |   |-- Harmonize_Summary_Statistics.ipynb
 ```
 
-## Run
+
+## 1) Harmonize the summary statistics for the different GWASes
+
+### Run
+* `Harmonize_Summary_Statistics.ipynb`
+
+### Input
+* summary statistics files
+
+### Output
+* cleaned summary statistics files
+
+## 2) Get Gene Lists for All Risk Loci
+
+### Run
 * on biowulf 
-* see `prep_code.sh`
-    * parts of the script will need to be run separately
+* see `Loci_Gene_List.ipynb`
+    * may need to update script if using different GWAS files
 
-## Input
+### Input
 * `refFlat_HG19.txt` containing genes from hg19 reference genome.
-* `GWAS.bed` containing data for all the meta5 risk snps.
-* `META5_no23.tbl.gz` containing summary stats for the risk variants.
-* `HRC_RS_conversion_final_with_CHR.txt` containing rsids for risk variants.
+* gwas summary statistic files. see the notebook
 
-## Output
-* a `META5_genes.txt` file containing all the genes 1 Mb up and downstream of each risk variant
-* a `META5_no23_with_rsids.txt` containing summary stats with rsids for risk variants. 
+### Output
+* an updated `genes_by_locus.csv` file containing all the genes 1 Mb up and downstream of each risk variant for all gwases relevant to the app
+* an updated `gwas_risk_variants.csv` file containing all risk variants from all relevant gwases for the app

@@ -18,13 +18,14 @@ input files obtained from: [Single Cell SN Data](https://www.ncbi.nlm.nih.gov/ge
 |   |   |-- Nigra_Samples_v8.txt
 |   |   |-- GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt
 |   |   |-- exp_violin_plots.R
-|   |   |-- GTEx_barplots_gwas_genes.R
-|   |   |-- gtex_gwas_tissue.csv
 |   |-- results
 |   |   |-- ExpressionData.csv
 |   |   |-- plots
 |   |   |   |-- expression
 |   |   |   |   |-- AADAC_sc_expression.png
+|   |   |   |   |-- ...
+|   |   |   |-- expression_violin
+|   |   |   |   |-- AADAC_gtex8_expression.png
 |   |   |   |   |-- ...
 |   |-- evidence
 |   |   |-- evidence_expression.csv
@@ -62,11 +63,12 @@ input files obtained from: [Single Cell SN Data](https://www.ncbi.nlm.nih.gov/ge
 
 ### Run
 * locally
-* run `exp_violin_plots.R` or `GTEx_barplots_gwas_genes.R`
-   * may need to modify code in scripts
+* run `exp_violin_plots.R`
 
 ### Input
-* a `gtex_gwas_tissue.csv` file containing single cell data for the genes
+* a `genes_by_locus.csv` file in the parent directory containing all genes of interest and their locus number
+* a `GTEx_Analysis_2016-01-15_v7_RNASeQCv1.1.8_gene_tpm.gct` containing GTEX expression data
+* a `GTEx_Analysis_v8_Annotations_SampleAttributesDS.txt` containing GTEX tissue data
 
 ### Output
-* violin plots per gene
+* violin plots per gene in the `results/plots/expression_violin` folder

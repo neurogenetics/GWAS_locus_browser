@@ -40,24 +40,25 @@ comb_genes = hgmd_genes.tolist() + omim_genes.tolist()
 
 genes = np.unique(comb_genes)
 
-disease_data = pd.DataFrame(data={'Gene': genes})
+disease_data = pd.DataFrame(data={'GENE': genes})
 
-disease_data['HGMD']=disease_data.apply(lambda x: makeHGMDString(x.Gene),axis=1)
+disease_data['HGMD']=disease_data.apply(lambda x: makeHGMDString(x.GENE),axis=1)
 
-disease_data['OMIM']=disease_data.apply(lambda x: makeOMIMString(x.Gene),axis=1)
+disease_data['OMIM']=disease_data.apply(lambda x: makeOMIMString(x.GENE),axis=1)
 
 disease_data.to_csv("results/DiseaseGeneData.txt", index = False, sep='\t')
 
 
 #add new Disease Gene column set to 1 for all genes
 disease_data['Disease Gene'] = [1] * len(disease_data.index)
-disease_data = disease_data[['Gene','Disease Gene']]
+disease_data = disease_data[['GENE','Disease Gene']]
 
 #read evidence genes
 evidence = pd.read_csv("genes_by_locus.csv")
 
 #merge evidence genes and disease genes
-evidence_diseasegenes = pd.merge(evidence, disease_data, how='left', on=['Gene'])
+evidence_diseasegenes = pd.merge(evidence, disease_data, how='left', on='GENE')
+
 
 #fill in NAs with 0
 evidence_diseasegenes.fillna(0, inplace=True)

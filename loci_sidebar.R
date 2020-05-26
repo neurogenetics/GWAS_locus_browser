@@ -1,69 +1,105 @@
 
-
-
 #render the sidebar tables
 renderLociTable <- function(df)
 {
-  renderDT({datatable(df, escape = F, rownames= F, options = list(order = list(0, 'asc'), searching = F, paginate = F, dom = 't', scrollCollapse = T, scrollY = "20vh")) %>% 
-      formatStyle(columns=colnames(df)
-      )})
+
+  renderDT({
+    df <- df %>% select("LOC_NUM", "RSID", "CHR", "BP", "NEAR_GENE")
+    #rename the RSID_Link to RSID
+    colnames(df) <- c("Locus Number", "Risk Variant", "Chr", "BP", "Nearest Gene")
+    
+
+    df$helper <- FALSE
+    if(reactives$selRow$RSID %in% df$'Risk Variant')
+    {
+      df$helper <- ifelse( df$'Risk Variant'==reactives$selRow$RSID,TRUE,FALSE)
+    }
+
+
+
+    datatable(df, selection=list(mode="single"), escape = F, rownames= F,
+              callback = JS("table.on('click.dt','td', function() {
+                              var row_=table.cell(this).index().row;
+                              var rowData = table.rows( { selected: true } ).data()[row_]; 
+                              Shiny.setInputValue('clickedID', rowData[1]);
+                              Shiny.setInputValue('varClick', Math.random());
+                          });"),
+              options = list( order = list(5, 'desc'), searching = F, paginate = F, dom = 't', scrollCollapse = T, scrollY = "30vh",columnDefs=list(
+                list(
+                  visible=FALSE,
+                  targets=which(colnames(df)=='helper')-1   
+                )
+    )))%>% formatStyle('helper', target='row',
+                       backgroundColor = styleEqual(TRUE, '#337ab7'),
+                       color = styleEqual(TRUE, '#fff')) 
+
+  })
+  
   
 }
 
 updateSelectInput(session, inputId = "navSelect", label = "Jump to Section:", choices = section_ids)
 
+observeEvent(input$gwasSelect,
+             {
+               gwas_id_string <<-  gsub(" GWAS","",input$gwasSelect)
+
+               #create the link to the paper 
+               link <- a(paste0(gwas_info[gwas_info$ID==gwas_id_string,]$SHORT_REF," ",gwas_id_string), href = gwas_info[gwas_info$ID==gwas_id_string,]$LINK, target = "_blank")
+               output$gwasOutput <- renderUI(HTML(paste0("<h4>", link," GWAS Loci:</h4>")))
+               
+               #subset the loci data by the selected gwas
+               gwas_specific_loci <- gwas_risk_variants[which(gwas_risk_variants$GWAS == gwas_id_string)]
+
+               output$gwasLociTable <- renderLociTable(gwas_specific_loci)
+               
+
+             })
+
 observeEvent(input$navSelect,
              {
                runjs(paste0("jumpToSection('",nav_df[which(nav_df$s == input$navSelect),]$id,"')"))
              })
-# renderNavTable <- function()
-# {
-#   sections <- c("Interactive Locus Zoom", "Static Locus Zoom", "Summary Statistics", "Best Candidate", "Evidence Per Gene", "QTL Evidence", "Coding Variants", "Associated Variant Phenotypes", "Burden Evidence", "Expression Data", "Gene Single Cell Expression Plot", "Gene Tissue Expression Plot", "Constraint Values", "Disease Genes", "Fine-Mapping of Locus", "Literature")
-#   ids <- sprintf("#collapse%d",seq(1:length(sections)))
-# 
-#     
-#     sectiondf <- data.frame(s = sections, id = ids)
-#     
-#     sectiondf <- sectiondf %>% mutate(s = paste0("<a id=\"", s, "\" href=\"javascript:;\" onclick=\"jumpToSection('",id,"')\">", s, "</a>"))  %>% mutate("Table of Contents" = s)%>% select("Table of Contents")
-# 
-# 
-# 
-#     renderDT({datatable(sectiondf, escape = F, rownames= F, options = list(ordering = F, searching = F, paginate = F, dom = 't', scrollCollapse = T, scrollY = "20vh")) %>% 
-#         formatStyle(columns=colnames(sectiondf)
-#         )})
-# }
 
 
  
 #search when submit button clicked
-observeEvent( input$submitButton,
+observeEvent( input$searchInputBar_search,
              {
                searchClicked <<- T
                
-               #find the new snp data
-               reactives$selRow <- getSelectedRow()
                
-               searchTable(searchString = input$searchBar)
-
                if(is.null(reactives$searchedGene))
                {
                  shinyjs::hide(id = "geneSearchOutput")
                }
                else
                {
+                 searchedGene<- reactives$searchedGene
                  shinyjs::show(id = "geneSearchOutput")
+
+
+                 
                }
+               
+
+               
+               #find the new snp data
+               reactives$selRow <- getSelectedRow()
+               searchTable(searchString = input$searchInputBar)
+
+
                
                #jump to data tab
                updateTabsetPanel(session, "tabSetID", selected = "Data")
-               
+               removeTutorialDataHighlights()
                #update the detail panel
                renderDetailPanel()
                
-               geneList <- evidence[which((evidence$Locusnumber == reactives$selRow$'Locus Number' & evidence$SNP == reactives$selRow$SNP) & (evidence$"QTL-blood"==1 | evidence$"QTL-brain"==1)),]
- 
-               geneList<- geneList$Gene
-               updateSelectInput(session, "qtlSelect", choices = geneList)
+
+               geneList<- getQTLDropDownGenes()
+               
+
                #if a gene has been searched only show plots for that gene
                if(searchClicked && !is.null(isolate(reactives$searchedGene)) && isolate(reactives$searchedGene) %in% geneList)
                {
@@ -72,15 +108,14 @@ observeEvent( input$submitButton,
                #if there are no genes on the locus with plots then show NA as default
                else
                {
-                 geneList <- append(geneList,c("NA"))
-                 updateSelectInput(session, "qtlSelect", choices = geneList, selected="NA")
+
+                 updateSelectInput(session, "qtlSelect", choices = geneList, selected=geneList[1])
                }
-               
+
                #get gene list for the section dropdowns
-               dropDownGenes <- (evidence[evidence$Locusnumber == isolate(reactives$selRow$'Locus Number'),]$Gene)
+               dropDownGenes <- (evidence[(evidence$LOC_NUM == isolate(reactives$selRow$'LOC_NUM') & (evidence$GWAS == gwas_id_string)),]$GENE)
+
                #don't include an "All Genes" option for the GTEX dropdown
-               updateSelectInput(session, "GTEXSelect", choices = dropDownGenes, selected=isolate(reactives$searchedGene))
-               updateSelectInput(session, "SingleCellSelect", choices = dropDownGenes, selected=isolate(reactives$searchedGene))
                updateSelectInput(session, "litGeneSelect", choices = dropDownGenes, selected=isolate(reactives$searchedGene))
                #add "All Genes" to the list for the other drop downs
                dropDownGenes <- append(dropDownGenes, "All Genes", 0)
@@ -89,14 +124,18 @@ observeEvent( input$submitButton,
                updateSelectInput(session, "expressionSelect", choices = dropDownGenes, selected=isolate(reactives$searchedGene))
                updateSelectInput(session, "constraintSelect", choices = dropDownGenes, selected=isolate(reactives$searchedGene))
                updateSelectInput(session, "diseaseSelect", choices = dropDownGenes, selected=isolate(reactives$searchedGene))
+               
+
             })
 
 #make proxy for the table to allow for row deselection
-meta5_proxy = dataTableProxy('META5Table')
-prog_proxy = dataTableProxy('ProgTable')
+gwaslocitable_proxy = dataTableProxy('gwasLociTable')
+
 
 #when a variant hyperlink is clicked
-observeEvent(input$varClick, 
+observeEvent({input$varClick
+  #input$gwasLociTable_rows_selected
+  }, 
              {
                searchClicked <<- F
                
@@ -104,35 +143,24 @@ observeEvent(input$varClick,
                reactives$selRow <- getSelectedRow()
                
                updateTabsetPanel(session, "tabSetID", selected = "Data")
-               
+               removeTutorialDataHighlights()
                #deselect all the rows
-               meta5_proxy %>% selectRows(NULL)
-               prog_proxy %>% selectRows(NULL)
-               
+               gwaslocitable_proxy %>% selectRows(NULL)
+
                #update the detail panel now that a new snp has been selected
                renderDetailPanel()
                
                shinyjs::hide(id = "geneSearchOutput")
                
-               
-               geneList <- evidence[which((evidence$Locusnumber == reactives$selRow$'Locus Number' & evidence$SNP == reactives$selRow$SNP) & (evidence$"QTL-blood"==1 | evidence$"QTL-brain"==1)),]
 
-               geneList<- geneList$Gene
-               updateSelectInput(session, "qtlSelect", choices = geneList)
-               #if there are no genes on the locus with plots then show NA as default
-               if(length(geneList)==0)
-               {
-                 geneList <- c("NA")
-               }
                
-               updateSelectInput(session, "qtlSelect", choices = geneList)
+               updateSelectInput(session, "qtlSelect", choices = getQTLDropDownGenes())
                
-               
+
                #get gene list for the section dropdowns
-               dropDownGenes <- (evidence[evidence$Locusnumber == isolate(reactives$selRow$'Locus Number'),]$Gene)
+               dropDownGenes <- (evidence[evidence$LOC_NUM == isolate(reactives$selRow$'LOC_NUM') & evidence$GWAS == gwas_id_string,]$GENE)
+               
                #don't include an "All Genes" option for the GTEX dropdown
-               updateSelectInput(session, "GTEXSelect", choices = dropDownGenes)
-               updateSelectInput(session, "SingleCellSelect", choices = dropDownGenes)
                updateSelectInput(session, "litGeneSelect", choices = dropDownGenes)
                #add "All Genes" to the list for the other drop downs
                dropDownGenes <- append(dropDownGenes, "All Genes", 0)
@@ -148,36 +176,9 @@ observeEvent(input$varClick,
 observeEvent(input$wrapperLogo, 
              {
                searchClicked <<- F
-               updateTextInput(session, inputId = "searchBar",value = "")
-               
-               reactives$selRow <- meta5_gwas_data[which(meta5_gwas_data$'Nearest Gene' == "PMVK")]
-               
-               searchTable(searchString = "")
-               
-               updateTabsetPanel(session, "tabSetID", selected = "Data")
-               
-               renderDetailPanel()
-               
-               shinyjs::hide(id = "geneSearchOutput")
-               
-               geneList <- evidence[which((evidence$Locusnumber == reactives$selRow$'Locus Number' & evidence$SNP == reactives$selRow$SNP) & (evidence$"QTL-blood"==1 | evidence$"QTL-brain"==1)),]
-
-               geneList<- geneList$Gene
-               updateSelectInput(session, "qtlSelect", choices = geneList)
-               
-               #get gene list for the section dropdowns
-               dropDownGenes <- (evidence[evidence$Locusnumber == isolate(reactives$selRow$'Locus Number'),]$Gene)
-               #don't include an "All Genes" option for the GTEX dropdown
-               updateSelectInput(session, "GTEXSelect", choices = dropDownGenes)
-               updateSelectInput(session, "SingleCellSelect", choices = dropDownGenes)
-               updateSelectInput(session, "litGeneSelect", choices = dropDownGenes)
-               #add "All Genes" to the list for the other drop downs
-               dropDownGenes <- append(dropDownGenes, "All Genes", 0)
-               updateSelectInput(session, "evidenceSelect", choices = dropDownGenes)
-               updateSelectInput(session, "burdenSelect", choices = dropDownGenes)
-               updateSelectInput(session, "expressionSelect", choices = dropDownGenes)
-               updateSelectInput(session, "constraintSelect", choices = dropDownGenes)
-               updateSelectInput(session, "diseaseSelect", choices = dropDownGenes)
+               updateTextInput(session, inputId = "searchInputBar",value = "")
+               runjs("Shiny.setInputValue('clickedID', 'rs114138760')")
+               runjs("Shiny.setInputValue('varClick', Math.random())")
              })
 
 #search the table based on the searchString
@@ -203,64 +204,45 @@ searchTable <- function(searchString)
   {
     searchSwitch <- "gene"
   }
-  meta5_searchResults <- switch(
+  searchResults <- switch(
     searchSwitch,
     #search for the locus number
-    locus = meta5_loci[grepl(gsub("^locus(\\w+)", "\\1", searchString, ignore.case = T), meta5_loci$`Locus Number`, ignore.case = T)],
+    locus = gwas_risk_variants[grepl(gsub("^locus(\\w+)", "\\1", searchString, ignore.case = T), gwas_risk_variants$`LOC_NUM`, ignore.case = T)],
     #search for the rsID searchString
-    rsID = meta5_loci[grepl(searchString, meta5_loci$SNP, ignore.case = T)],
+    rsID = gwas_risk_variants[grepl(searchString, gwas_risk_variants$RSID, ignore.case = T)],
     #search for the chr searchString
-    chr = meta5_loci[grepl(gsub("^chr(\\d+)", "\\1", searchString, ignore.case = T), meta5_loci$CHR, ignore.case = T)],
+    chr = gwas_risk_variants[grepl(gsub("^chr(\\d+)", "\\1", searchString, ignore.case = T), gwas_risk_variants$CHR, ignore.case = T)],
     #search for the chr:bp searchString
-    chrbp = subset(meta5_loci, 
+    chrbp = subset(gwas_risk_variants, 
                    #search by bp
-                   grepl(gsub("^\\d+:(\\d+)$", "\\1", searchString, ignore.case = T), gsub(",","",meta5_loci$BP), ignore.case = T) & 
+                   grepl(gsub("^\\d+:(\\d+)$", "\\1", searchString, ignore.case = T), gsub(",","",gwas_risk_variants$BP), ignore.case = T) & 
                      #and search by chr
-                     grepl(gsub("^(\\d+):.*$", "\\1", searchString, ignore.case = T), meta5_loci$CHR, ignore.case = T)),
+                     grepl(gsub("^(\\d+):.*$", "\\1", searchString, ignore.case = T), gwas_risk_variants$CHR, ignore.case = T)),
     #search for the gene name searchString in all of the genes
-    gene = meta5_loci[(meta5_loci$'Locus Number' %in% getLocusByGene(searchString))]
+    gene = gwas_risk_variants[(gwas_risk_variants$'LOC_NUM' %in% getLocusByGene(searchString) & (gwas_risk_variants$GWAS==gwas_id_string))]
   )
-  
-  prog_searchResults <- switch(
-    searchSwitch,
-    #search for the locus number
-    locus = prog_loci[grepl(gsub("^locus(\\w+)", "\\1", searchString, ignore.case = T), prog_loci$`Locus Number`, ignore.case = T)],
-    #search for the rsID searchString
-    rsID = prog_loci[grepl(searchString, prog_loci$SNP, ignore.case = T)],
-    #search for the chr searchString
-    chr = prog_loci[grepl(gsub("^chr(\\d+)", "\\1", searchString, ignore.case = T), prog_loci$CHR, ignore.case = T)],
-    #search for the chr:bp searchString
-    chrbp = subset(prog_loci, 
-                   #search by bp
-                   grepl(gsub("^\\d+:(\\d+)$", "\\1", searchString, ignore.case = T), gsub(",","",prog_loci$BP), ignore.case = T) & 
-                     #and search by chr
-                     grepl(gsub("^(\\d+):.*$", "\\1", searchString, ignore.case = T), prog_loci$CHR, ignore.case = T)),
-    #search for the gene name searchString in all of the genes
-    gene = prog_loci[prog_loci$'Locus Number' %in% getLocusByGene(searchString)]
-  )
+
   
   #if there is nothing in the searchBox then remove filter and show the whole table
   if(searchString == "")
   {
-    prog_searchResults = prog_loci
-    meta5_searchResults = meta5_loci
+    searchResults = gwas_risk_variants
   }
-  output$META5Table <-  renderLociTable(meta5_searchResults)
-  output$ProgTable <-  renderLociTable(prog_searchResults)
+  output$gwasLociTable <-  renderLociTable(searchResults)
 }
 
 getLocusByGene <- function(geneName)
 {
   retval <- NULL
   #try with geneName as is and with forced uppercase
-  if(input$searchBar %in% evidence$Gene)
+  if(input$searchInputBar %in% evidence$GENE)
   {
-    retval <- evidence[evidence$Gene %in% input$searchBar]$Locusnumber
+    retval <- evidence[evidence$GENE %in% input$searchInputBar]$LOC_NUM
   }
   
-  if(toupper(input$searchBar) %in% evidence$Gene)
+  if(toupper(input$searchInputBar) %in% evidence$GENE)
   {
-    retval <- evidence[evidence$Gene %in% toupper(input$searchBar)]$Locusnumber
+    retval <- evidence[evidence$GENE %in% toupper(input$searchInputBar)]$LOC_NUM
   }
   retval
 }

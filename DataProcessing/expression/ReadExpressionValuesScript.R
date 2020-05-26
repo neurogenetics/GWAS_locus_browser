@@ -26,8 +26,6 @@
 library(data.table)#used for fread function
 library (dplyr)#used to select columns from dataframes
 
-#cut -f 1-10 $PATH1/GTEx_Analysis_2016-01-15_v7_RNASeQCv1.1.8_gene_tpm.gct | head
-
 print("reading gct file")
 gtexExpData <- fread("expression/GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_tpm.gct")
 
@@ -35,7 +33,7 @@ gtexExpData <- fread("expression/GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_
 
 print("reading gene list")
 evidence <- fread("genes_by_locus.csv")
-genes_list <- unique(evidence$Gene)
+genes_list <- unique(evidence$GENE)
 genes <- data.frame("Gene" = genes_list)
 
 #initialize the expression dataframe with the gene names
@@ -128,7 +126,6 @@ evdExp$'SN-Dop. Neuron Expression' <- ifelse(evdExp$'DaN' > 5, 1, 0)
 
 evdExp <- evdExp %>% select('Gene', 'Brain Expression', 'Nigra Expression', 'SN-Dop. Neuron Expression')
 
-evidenceDF <- merge(x = evidence, y = evdExp, by = "Gene", all.x = TRUE)
+evidenceDF <- merge(x = evidence, y = evdExp, by.x = "GENE",by.y="Gene", all.x = TRUE)
 
 write.csv(evidenceDF, "evidence/evidence_expression.csv", row.names = F)
-

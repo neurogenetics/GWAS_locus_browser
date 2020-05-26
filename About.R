@@ -7,7 +7,7 @@ output$aboutOutput <- renderUI({
   data <- drive_download(aboutFile, path = "about.html", overwrite = T, verbose = F)
 
   #read the lines from the file and format them
-  filelines <- readLines("about.html")
+  filelines <- readLines("about.html",warn=FALSE)
   
   #insert "target='_blank'"  attribut to all hyperlinks in the about html so that they open in a new tab
   blankify <- gsub("<a","<a target='_blank'",filelines)

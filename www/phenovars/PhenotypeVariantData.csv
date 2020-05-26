@@ -1,0 +1,659 @@
+GWAS,ID,CHRBP_REFALT,locnum,freq_nfe,other associated disease,P-VALUE,PMID
+META5,rs2296887,10:104005410:T:C,44,0.1367,Parkinson's disease,2e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs7095308,10:121426312:G:A,45,0.2695,Systolic blood pressure,6e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs17617337,10:121426884:C:T,45,0.2061,Diastolic blood pressure,3e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27841878' target='_blank'>27841878</a>
+META5,rs2234962,10:121429633:T:C,45,0.2060,Idiopathic dilated cardiomyopathy,4e-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21459883' target='_blank'>21459883</a>
+META5,rs2234962,10:121429633:T:C,45,0.2060,Height,3.00E-27,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs2234962,10:121429633:T:C,45,0.2060,Lung function (FEV1/FVC),3.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs188789342,10:121372328:C:T,45,0.0164,Parkinson's disease,3e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27182965' target='_blank'>27182965</a>
+META5,rs117896735,10:121536327:G:A,45,0.0140,Parkinson's disease,4.00E-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25064009' target='_blank'>25064009</a>
+META5,rs117896735,10:121536327:G:A,45,0.0140,Parkinson's disease,2e-19,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs10906923,10:15569598:C:A,43,0.6599,Parkinson's disease,1e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs329651,11:133767622:G:T,48,0.8388,Body mass index,1.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs1155311,11:83489415:A:T,47,0.5845,Cardiovascular disease,1.00E-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs7479949,11:83503404:T:C,47,0.4345,Parkinson's disease,6e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28011712' target='_blank'>28011712</a>
+META5,rs3793947,11:83544472:G:A,47,0.4447,Parkinson's disease,4.00E-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25064009' target='_blank'>25064009</a>
+META5,rs3793947,11:83544472:G:A,47,0.4447,Parkinson's disease,4e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs12817488,12:123296294:G:A,51,0.4468,Parkinson's disease,3e-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21292315' target='_blank'>21292315</a>
+META5,rs4296106,12:133057963:A:G,52,0.6376,Height,8.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs76904798,12:40614434:C:T,49,0.1279,Parkinson's disease,5.00E-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25064009' target='_blank'>25064009</a>
+META5,rs76904798,12:40614434:C:T,49,0.1279,Parkinson's disease,1e-19,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs1491942,12:40620808:C:G,49,0.1779,Parkinson's disease,6e-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21292315' target='_blank'>21292315</a>
+META5,rs1491942,12:40620808:C:G,49,0.1779,Parkinson's disease,6e-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/22438815' target='_blank'>22438815</a>
+META5,rs28903073,12:40653510:G:A,49,0.0032,Parkinson's disease,1e-39,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27182965' target='_blank'>27182965</a>
+META5,rs34637584,12:40734202:G:A,49,0.0003,Parkinson's disease,2e-28,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21738487' target='_blank'>21738487</a>
+META5,rs11183201,12:46170982:T:C,50,0.5216,Morningness,2.00E-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30804565' target='_blank'>30804565</a>
+META5,rs11183201,12:46170982:T:C,50,0.5216,Morning person,8.00E-17,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30696823' target='_blank'>30696823</a>
+META5,rs11183201,12:46170982:T:C,50,0.5216,Morning person,2e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs1863127,12:46199589:T:C,50,0.5225,Red blood cell count,4.00E-17,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs247929,12:46294908:G:C,50,0.5972,Educational attainment,8.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25201988' target='_blank'>25201988</a>
+META5,rs247929,12:46294908:G:C,50,0.5972,Chronotype,5.00E-17,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30696823' target='_blank'>30696823</a>
+META5,rs247929,12:46294908:G:C,50,0.5972,Morning person,5.00E-17,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30696823' target='_blank'>30696823</a>
+META5,rs1650007,12:46298435:T:C,50,0.5256,Intelligence (MTAG),2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29326435' target='_blank'>29326435</a>
+META5,rs1650008,12:46298437:A:G,50,0.5235,General cognitive ability,6.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29844566' target='_blank'>29844566</a>
+META5,rs7970129,12:46405050:C:T,50,0.4818,Morning person,1.00E-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30696823' target='_blank'>30696823</a>
+META5,rs6582586,12:46416742:G:A,50,0.3861,Height,5.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs11536240,12:46444609:C:A,50,0.3586,General cognitive ability,6.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29844566' target='_blank'>29844566</a>
+META5,rs9568188,13:49927732:T:C,53,0.2839,Parkinson's disease,4e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs1956438,14:38008215:G:A,55,0.6030,Estimated glomerular filtration rate,2e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31152163' target='_blank'>31152163</a>
+META5,rs11158026,14:55348869:C:T,56,0.3347,Parkinson's disease,6.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25064009' target='_blank'>25064009</a>
+META5,rs11158026,14:55348869:C:T,56,0.3347,Parkinson's disease,9e-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27182965' target='_blank'>27182965</a>
+META5,rs11158026,14:55348869:C:T,56,0.3347,Parkinson's disease,4e-16,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs10136545,14:55352863:C:T,56,0.3174,Highest math class taken (MTAG),2.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs2878172,14:55373670:A:G,56,0.4629,Chronotype,7.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30696823' target='_blank'>30696823</a>
+META5,rs1107960,14:55384340:T:A,56,0.3261,Self-reported math ability (MTAG),1.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs1107960,14:55384340:T:A,56,0.3261,Mean corpuscular hemoglobin,3.00E-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs732765,14:75365729:A:G,57,0.2138,Non-small cell lung cancer,7e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/23144319' target='_blank'>23144319</a>
+META5,rs10148864,14:75402014:C:T,57,0.1955,Reaction time,7.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29844566' target='_blank'>29844566</a>
+META5,rs8005172,14:88472612:C:T,58,0.4226,Parkinson's disease,9e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs1372356,14:88515949:G:A,58,0.5182,Food antigen IgG levels,6e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/24962563' target='_blank'>24962563</a>
+META5,rs10519131,15:62001132:A:C,59,0.1139,Parkinson's disease,1e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/22451204' target='_blank'>22451204</a>
+META5,rs6497337,16:19244424:A:G,60,0.6626,Educational attainment (MTAG),2.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs2352795,16:19265885:G:T,60,0.6272,Educational attainment (years of education),1.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs9924031,16:19267144:C:G,60,0.6286,Educational attainment (years of education),2.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs7197580,16:19278625:G:A,60,0.4976,Eosinophil counts,2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs1051547,16:19279380:T:C,60,0.5693,Height,6.00E-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs11343,16:19279464:T:G,60,0.5689,Parkinson's disease,9e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs11343,16:19279464:T:G,60,0.5689,Parkinson's disease,1e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27182965' target='_blank'>27182965</a>
+META5,rs378421,16:28754684:G:A,61,0.3948,Alcohol consumption (drinks per week),5.00E-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643251' target='_blank'>30643251</a>
+META5,rs378421,16:28754684:G:A,61,0.3948,Alcohol consumption (drinks per week) (MTAG),4.00E-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643251' target='_blank'>30643251</a>
+META5,rs2008514,16:28825605:G:A,61,0.4017,Body mass index in physically active individuals,1e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28448500' target='_blank'>28448500</a>
+META5,rs2008514,16:28825605:G:A,61,0.4017,Body mass index (joint analysis main effects and physical activity interaction),8e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28448500' target='_blank'>28448500</a>
+META5,rs2008514,16:28825605:G:A,61,0.4017,Body mass index,2e-17,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28448500' target='_blank'>28448500</a>
+META5,rs2008514,16:28825605:G:A,61,0.4017,Body mass index,1e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28448500' target='_blank'>28448500</a>
+META5,rs2008514,16:28825605:G:A,61,0.4017,Body mass index,2e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28448500' target='_blank'>28448500</a>
+META5,rs2008514,16:28825605:G:A,61,0.4017,Intelligence,1.00E-24,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29942086' target='_blank'>29942086</a>
+META5,rs1987471,16:28825866:T:G,61,0.4023,Hip circumference,4e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28552196' target='_blank'>28552196</a>
+META5,rs8049439,16:28837515:T:C,61,0.4073,Inflammatory bowel disease (early onset),2e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/19915574' target='_blank'>19915574</a>
+META5,rs8049439,16:28837515:T:C,61,0.4073,Educational attainment,1e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/23722424' target='_blank'>23722424</a>
+META5,rs8049439,16:28837515:T:C,61,0.4073,Educational attainment,1.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25201988' target='_blank'>25201988</a>
+META5,rs8049439,16:28837515:T:C,61,0.4073,Educational attainment (years of education),7e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27225129' target='_blank'>27225129</a>
+META5,rs8049439,16:28837515:T:C,61,0.4073,Body mass index,2e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28552196' target='_blank'>28552196</a>
+META5,rs8049439,16:28837515:T:C,61,0.4073,Intelligence (MTAG),1.00E-19,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29326435' target='_blank'>29326435</a>
+META5,rs8062405,16:28837906:A:G,61,0.3995,Weight,2e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28552196' target='_blank'>28552196</a>
+META5,rs8062405,16:28837906:A:G,61,0.3995,Cognitive ability,2e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29186694' target='_blank'>29186694</a>
+META5,rs8062405,16:28837906:A:G,61,0.3995,Cognitive ability (MTAG),4e-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29186694' target='_blank'>29186694</a>
+META5,rs62036624,16:28839930:G:T,61,0.4014,Waist circumference,4e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28552196' target='_blank'>28552196</a>
+META5,rs72793812,16:28840381:A:G,61,0.4007,Cognitive performance (MTAG),8.00E-35,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs12928404,16:28847246:T:C,61,0.4116,Intelligence,4e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28530673' target='_blank'>28530673</a>
+META5,rs12928404,16:28847246:T:C,61,0.4116,Intelligence,1e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28530673' target='_blank'>28530673</a>
+META5,rs12928404,16:28847246:T:C,61,0.4116,Pediatric autoimmune diseases,6e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26301688' target='_blank'>26301688</a>
+META5,rs12928404,16:28847246:T:C,61,0.4116,Albumin-globulin ratio,6.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29403010' target='_blank'>29403010</a>
+META5,rs12928404,16:28847246:T:C,61,0.4116,Hand grip strength,1.00E-25,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29691431' target='_blank'>29691431</a>
+META5,rs12928404,16:28847246:T:C,61,0.4116,Extremely high intelligence,2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29520040' target='_blank'>29520040</a>
+META5,rs12325113,16:28848668:T:C,61,0.3987,Body mass index (joint analysis main effects and physical activity interaction),2e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28448500' target='_blank'>28448500</a>
+META5,rs12325113,16:28848668:T:C,61,0.3987,Body mass index (joint analysis main effects and physical activity interaction),9e-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28448500' target='_blank'>28448500</a>
+META5,rs12325113,16:28848668:T:C,61,0.3987,Body mass index in physically active individuals,2e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28448500' target='_blank'>28448500</a>
+META5,rs12325113,16:28848668:T:C,61,0.3987,Body mass index in physically active individuals,2e-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28448500' target='_blank'>28448500</a>
+META5,rs12325113,16:28848668:T:C,61,0.3987,Body mass index,3e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28448500' target='_blank'>28448500</a>
+META5,rs12325113,16:28848668:T:C,61,0.3987,Body mass index,2e-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28448500' target='_blank'>28448500</a>
+META5,rs12325113,16:28848668:T:C,61,0.3987,Body mass index,4.00E-29,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30108127' target='_blank'>30108127</a>
+META5,rs4788099,16:28855727:A:G,61,0.3998,Body fat percentage,1.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26833246' target='_blank'>26833246</a>
+META5,rs4788099,16:28855727:A:G,61,0.3998,Body fat percentage,8.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26833246' target='_blank'>26833246</a>
+META5,rs4788099,16:28855727:A:G,61,0.3998,Body fat percentage,5.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26833246' target='_blank'>26833246</a>
+META5,rs4788099,16:28855727:A:G,61,0.3998,Body fat percentage,7.00E-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26833246' target='_blank'>26833246</a>
+META5,rs7187776,16:28857645:A:G,61,0.4075,Hip circumference adjusted for BMI,7.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25673412' target='_blank'>25673412</a>
+META5,rs7187776,16:28857645:A:G,61,0.4075,Hip circumference adjusted for BMI,4e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25673412' target='_blank'>25673412</a>
+META5,rs7187776,16:28857645:A:G,61,0.4075,Estimated glomerular filtration rate,1.0000000000000001e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31152163' target='_blank'>31152163</a>
+META5,rs7187776,16:28857645:A:G,61,0.4075,Red blood cell count,3.00E-18,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs113079736,16:28860183:G:A,61,0.3995,Alcohol consumption (drinks per week),3.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643258' target='_blank'>30643258</a>
+META5,rs62037363,16:28865042:T:C,61,0.3959,Inflammatory bowel disease,6.00E-22,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26192919' target='_blank'>26192919</a>
+META5,rs62037363,16:28865042:T:C,61,0.3959,General cognitive ability,7.00E-19,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29844566' target='_blank'>29844566</a>
+META5,rs62037364,16:28868695:G:A,61,0.3952,Hand grip strength,2.00E-26,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29691431' target='_blank'>29691431</a>
+META5,rs12446589,16:28870962:G:A,61,0.3979,FEV1,3.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30804560' target='_blank'>30804560</a>
+META5,rs12446589,16:28870962:G:A,61,0.3979,Lung function (FVC),2.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30804560' target='_blank'>30804560</a>
+META5,rs12446589,16:28870962:G:A,61,0.3979,Self-reported math ability,3.00E-27,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs12446589,16:28870962:G:A,61,0.3979,Self-reported math ability (MTAG),2.00E-36,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs12448902,16:28871191:C:G,61,0.4464,Red blood cell count,1e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27863252' target='_blank'>27863252</a>
+META5,rs12448902,16:28871191:C:G,61,0.4464,Cognitive performance,5.00E-19,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs4788102,16:28873398:G:A,61,0.4003,Body mass index,9e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28448500' target='_blank'>28448500</a>
+META5,rs4788102,16:28873398:G:A,61,0.4003,Body mass index (joint analysis main effects and physical activity interaction),1e-16,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28448500' target='_blank'>28448500</a>
+META5,rs4788102,16:28873398:G:A,61,0.4003,Body mass index in physically active individuals,1e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28448500' target='_blank'>28448500</a>
+META5,rs4788102,16:28873398:G:A,61,0.4003,Body mass index in physically active individuals,8e-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28448500' target='_blank'>28448500</a>
+META5,rs4788102,16:28873398:G:A,61,0.4003,Body mass index (joint analysis main effects and physical activity interaction),2e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28448500' target='_blank'>28448500</a>
+META5,rs11864750,16:28875204:A:T,61,0.3998,Highest math class taken (MTAG),7.00E-37,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs8055982,16:28881202:A:C,61,0.4002,Cognitive ability,1e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29186694' target='_blank'>29186694</a>
+META5,rs7498665,16:28883241:A:G,61,0.3967,Obesity,3e-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/23563607' target='_blank'>23563607</a>
+META5,rs7498665,16:28883241:A:G,61,0.3967,Obesity,5.0000000000000005e-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/23563607' target='_blank'>23563607</a>
+META5,rs7498665,16:28883241:A:G,61,0.3967,Body mass index,5e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/19079261' target='_blank'>19079261</a>
+META5,rs7498665,16:28883241:A:G,61,0.3967,Weight,1e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/19079260' target='_blank'>19079260</a>
+META5,rs7498665,16:28883241:A:G,61,0.3967,Body mass index,3e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/19079260' target='_blank'>19079260</a>
+META5,rs7498665,16:28883241:A:G,61,0.3967,Waist circumference,5.00E-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25673412' target='_blank'>25673412</a>
+META5,rs7498665,16:28883241:A:G,61,0.3967,Waist circumference,1.00E-22,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25673412' target='_blank'>25673412</a>
+META5,rs7498665,16:28883241:A:G,61,0.3967,Waist circumference,3.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25673412' target='_blank'>25673412</a>
+META5,rs7498665,16:28883241:A:G,61,0.3967,Waist-hip ratio,9.999999999999999e-23,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30239722' target='_blank'>30239722</a>
+META5,rs7498665,16:28883241:A:G,61,0.3967,Body mass index,1.00E-66,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30239722' target='_blank'>30239722</a>
+META5,rs7498665,16:28883241:A:G,61,0.3967,Waist-hip ratio,1.00E-22,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30239722' target='_blank'>30239722</a>
+META5,rs7498665,16:28883241:A:G,61,0.3967,Predicted visceral adipose tissue,2.00E-26,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31501611' target='_blank'>31501611</a>
+META5,rs7498665,16:28883241:A:G,61,0.3967,Body mass index,1.00E-40,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs7359397,16:28885659:C:T,61,0.3986,Body mass index,2.0000000000000002e-20,<a href='https://www.ncbi.nlm.nih.gov/pubmed/20935630' target='_blank'>20935630</a>
+META5,rs7359397,16:28885659:C:T,61,0.3986,"Cognitive ability, years of educational attainment or schizophrenia (pleiotropy)",7.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31374203' target='_blank'>31374203</a>
+META5,rs3888190,16:28889486:C:A,61,0.4008,Body mass index,4.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25673413' target='_blank'>25673413</a>
+META5,rs3888190,16:28889486:C:A,61,0.4008,Body mass index,1.00E-17,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25673413' target='_blank'>25673413</a>
+META5,rs3888190,16:28889486:C:A,61,0.4008,Body mass index,3.00E-23,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25673413' target='_blank'>25673413</a>
+META5,rs3888190,16:28889486:C:A,61,0.4008,Body mass index,3.00E-25,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25673413' target='_blank'>25673413</a>
+META5,rs3888190,16:28889486:C:A,61,0.4008,Hip circumference,9.00E-22,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25673412' target='_blank'>25673412</a>
+META5,rs3888190,16:28889486:C:A,61,0.4008,Hip circumference,3.00E-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25673412' target='_blank'>25673412</a>
+META5,rs3888190,16:28889486:C:A,61,0.4008,Hip circumference,1.0000000000000001e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25673412' target='_blank'>25673412</a>
+META5,rs3888190,16:28889486:C:A,61,0.4008,Body mass index,1.0000000000000001e-29,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26426971' target='_blank'>26426971</a>
+META5,rs3888190,16:28889486:C:A,61,0.4008,BMI (adjusted for smoking behaviour),6e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28443625' target='_blank'>28443625</a>
+META5,rs3888190,16:28889486:C:A,61,0.4008,BMI (adjusted for smoking behaviour),2e-18,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28443625' target='_blank'>28443625</a>
+META5,rs3888190,16:28889486:C:A,61,0.4008,BMI (adjusted for smoking behaviour),6e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28443625' target='_blank'>28443625</a>
+META5,rs3888190,16:28889486:C:A,61,0.4008,Body mass index (joint analysis main effects and smoking interaction),6e-18,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28443625' target='_blank'>28443625</a>
+META5,rs3888190,16:28889486:C:A,61,0.4008,Body mass index (joint analysis main effects and smoking interaction),2.0000000000000002e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28443625' target='_blank'>28443625</a>
+META5,rs3888190,16:28889486:C:A,61,0.4008,Body mass index (joint analysis main effects and smoking interaction),3e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28443625' target='_blank'>28443625</a>
+META5,rs3888190,16:28889486:C:A,61,0.4008,BMI in non-smokers,2e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28443625' target='_blank'>28443625</a>
+META5,rs3888190,16:28889486:C:A,61,0.4008,BMI in non-smokers,4e-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28443625' target='_blank'>28443625</a>
+META5,rs3888190,16:28889486:C:A,61,0.4008,BMI in non-smokers,1e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28443625' target='_blank'>28443625</a>
+META5,rs3888190,16:28889486:C:A,61,0.4008,Body mass index,1.9999999999999997e-31,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892062' target='_blank'>28892062</a>
+META5,rs3888190,16:28889486:C:A,61,0.4008,Body mass index,8e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26961502' target='_blank'>26961502</a>
+META5,rs7498555,16:28893571:T:C,61,0.3978,Mean corpuscular hemoglobin,2.00E-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs8061590,16:28895130:A:G,61,0.4029,Body mass index,3.00E-66,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30239722' target='_blank'>30239722</a>
+META5,rs8056890,16:28897452:G:A,61,0.3610,Waist circumference,9e-40,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31453325' target='_blank'>31453325</a>
+META5,rs8056890,16:28897452:G:A,61,0.3610,Hip circumference,2e-41,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31453325' target='_blank'>31453325</a>
+META5,rs8056890,16:28897452:G:A,61,0.3610,Waist circumference variance,6e-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31453325' target='_blank'>31453325</a>
+META5,rs8056890,16:28897452:G:A,61,0.3610,Hip circumference variance,1e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31453325' target='_blank'>31453325</a>
+META5,rs8056890,16:28897452:G:A,61,0.3610,"Allergic disease (asthma, hay fever or eczema)",2.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29679657' target='_blank'>29679657</a>
+META5,rs9931989,16:28906084:G:C,61,0.6407,Waist-hip ratio,5.0000000000000005e-22,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30239722' target='_blank'>30239722</a>
+META5,rs10499,16:28915527:G:A,61,0.6431,Cannabis use,1.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30150663' target='_blank'>30150663</a>
+META5,rs7188071,16:28917644:T:C,61,0.6413,Estimated glomerular filtration rate,6e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31152163' target='_blank'>31152163</a>
+META5,rs7184597,16:28921809:T:C,61,0.6596,Obesity,7e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/23563607' target='_blank'>23563607</a>
+META5,rs4072402,16:28937259:T:C,61,0.6559,Body mass index variance,5.9999999999999995e-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31453325' target='_blank'>31453325</a>
+META5,rs4072402,16:28937259:T:C,61,0.6559,Body mass index,2.9999999999999996e-28,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31453325' target='_blank'>31453325</a>
+META5,rs2904880,16:28944396:C:G,61,0.6716,Intelligence (MTAG),3.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29326435' target='_blank'>29326435</a>
+META5,rs2904880,16:28944396:C:G,61,0.6716,Body mass index,1.00E-35,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29273807' target='_blank'>29273807</a>
+META5,rs11643297,16:28973268:A:G,61,0.6845,General cognitive ability,7.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29844566' target='_blank'>29844566</a>
+META5,rs7500321,16:28977020:G:A,61,0.6832,Intelligence (MTAG),7.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29326435' target='_blank'>29326435</a>
+META5,rs8045689,16:28988269:C:T,61,0.6839,"Allergic disease (asthma, hay fever or eczema)",6.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29679657' target='_blank'>29679657</a>
+META5,rs7140,16:28995757:C:A,61,0.6834,Intelligence,2.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29942086' target='_blank'>29942086</a>
+META5,rs897984,16:30886643:T:C,62,0.6082,Dementia with Lewy bodies,1.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29263008' target='_blank'>29263008</a>
+META5,rs1046276,16:30914626:T:C,62,0.6387,Red blood cell count,2e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27863252' target='_blank'>27863252</a>
+META5,rs1046276,16:30914626:T:C,62,0.6387,Juvenile myoclonic epilepsy,3.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30531953' target='_blank'>30531953</a>
+META5,rs12924903,16:30928970:A:G,62,0.6384,Psoriatic arthritis,9.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26626624' target='_blank'>26626624</a>
+META5,rs72799341,16:30936743:G:A,62,0.2517,Diastolic blood pressure,6e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28135244' target='_blank'>28135244</a>
+META5,rs72799341,16:30936743:G:A,62,0.2517,Pulse pressure,9e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27841878' target='_blank'>27841878</a>
+META5,rs72799341,16:30936743:G:A,62,0.2517,Diastolic blood pressure,4e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27841878' target='_blank'>27841878</a>
+META5,rs10782001,16:30942625:G:A,62,0.6336,Psoriasis,9e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/20953189' target='_blank'>20953189</a>
+META5,rs10782001,16:30942625:G:A,62,0.6336,Psoriasis,3.00E-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25574825' target='_blank'>25574825</a>
+META5,rs12928852,16:30943988:C:T,62,0.6326,Mean corpuscular volume,2.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27863252' target='_blank'>27863252</a>
+META5,rs62055866,16:30969557:G:C,62,0.6273,Neurociticism,3.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs1870293,16:30970941:T:C,62,0.6281,"Chronic inflammatory diseases (ankylosing spondylitis, Crohn's disease, psoriasis, primary sclerosing cholangitis, ulcerative colitis) (pleiotropy)",1e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26974007' target='_blank'>26974007</a>
+META5,rs7204459,16:30984212:G:A,62,0.6233,Red blood cell count,1.00E-33,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs9938550,16:30999142:A:G,62,0.6232,Irritable mood,6.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs13708,16:31000809:G:A,62,0.6229,Psoriasis,2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25903422' target='_blank'>25903422</a>
+META5,rs13708,16:31000809:G:A,62,0.6229,Psoriasis,8.00E-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25903422' target='_blank'>25903422</a>
+META5,rs8062719,16:31002664:A:G,62,0.6283,Mean corpuscular hemoglobin,1.00E-35,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs12445568,16:31004812:T:C,62,0.3813,Psoriasis vulgaris,5.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26626624' target='_blank'>26626624</a>
+META5,rs12445568,16:31004812:T:C,62,0.3813,Psoriasis,1e-16,<a href='https://www.ncbi.nlm.nih.gov/pubmed/23143594' target='_blank'>23143594</a>
+META5,rs12445568,16:31004812:T:C,62,0.3813,Neuroticism,4.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29255261' target='_blank'>29255261</a>
+META5,rs2199036,16:31006972:C:T,62,0.3823,Self-reported math ability (MTAG),2.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs2199036,16:31006972:C:T,62,0.3823,Neuroticism,2e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs2199036,16:31006972:C:T,62,0.3823,Lung function (FVC),9e-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs4889609,16:31026427:A:G,62,0.3871,Response to metformin (IC50),9.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28173075' target='_blank'>28173075</a>
+META5,rs732172,16:31050033:C:T,62,0.3805,Snoring,1.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30804565' target='_blank'>30804565</a>
+META5,rs3751855,16:31091209:T:C,62,0.3961,Neurociticism,4.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs3751855,16:31091209:T:C,62,0.3961,Feeling tense,2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs3751855,16:31091209:T:C,62,0.3961,Worry,1.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29942085' target='_blank'>29942085</a>
+META5,rs3751855,16:31091209:T:C,62,0.3961,Neuroticism,1.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29942085' target='_blank'>29942085</a>
+META5,rs11865038,16:31095171:C:T,62,0.3971,Parkinson's disease,4e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/22451204' target='_blank'>22451204</a>
+META5,rs11864839,16:31095251:G:C,62,0.3966,Self-reported math ability,5.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs8060598,16:50781802:T:C,63,0.4162,Leprosy,5.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25642632' target='_blank'>25642632</a>
+META5,rs9933638,16:52539597:A:G,64,0.4661,Neuroticism,3.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29942085' target='_blank'>29942085</a>
+META5,rs1362546,16:52549935:C:T,64,0.4680,Neuroticism,3e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs2193094,16:52566454:T:G,64,0.4764,Breast cancer,2.00E-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25956309' target='_blank'>25956309</a>
+META5,rs4784224,16:52580247:C:A,64,0.4681,Neuroticism,1.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643256' target='_blank'>30643256</a>
+META5,rs3104767,16:52624738:G:T,64,0.4197,Restless legs syndrome,9e-19,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21779176' target='_blank'>21779176</a>
+META5,rs45544231,16:52632730:G:C,64,0.5782,Restless legs syndrome,7.00E-133,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29029846' target='_blank'>29029846</a>
+META5,rs3104778,16:52633652:A:G,64,0.4158,Insomnia symptoms (never/rarely vs. sometimes/usually),1.00E-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30804566' target='_blank'>30804566</a>
+META5,rs3104778,16:52633652:A:G,64,0.4158,Insomnia symptoms (never/rarely vs. usually),1.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30804566' target='_blank'>30804566</a>
+META5,rs3112612,16:52635164:G:A,64,0.4206,Breast cancer,4e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21263130' target='_blank'>21263130</a>
+META5,rs3104788,16:52638503:T:C,64,0.4208,Pericalcarine cortex volume,4e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31530798' target='_blank'>31530798</a>
+META5,rs117145500,16:52947630:A:C,65,0.0709,Sex hormone levels,2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26014426' target='_blank'>26014426</a>
+META5,rs8068844,17:40571284:T:C,67,0.3090,Eczema,2.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs68058972,17:40654524:A:G,67,0.1677,Heel bone mineral density,3.00E-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs4793090,17:40686342:G:A,67,0.6863,Educational attainment (years of education),2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs684214,17:40696915:C:T,67,0.2498,White blood cell count,2.00E-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs591939,17:40698075:A:G,67,0.2234,Waist-hip ratio,9.00E-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30239722' target='_blank'>30239722</a>
+META5,rs591939,17:40698075:A:G,67,0.2234,Predicted visceral adipose tissue,3.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31501611' target='_blank'>31501611</a>
+META5,rs676387,17:40706273:C:A,67,0.2549,Body mass index,2.00E-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30239722' target='_blank'>30239722</a>
+META5,rs668799,17:40716235:C:T,67,0.2500,Medication use (drugs used in diabetes),7.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31015401' target='_blank'>31015401</a>
+META5,rs668799,17:40716235:C:T,67,0.2500,Body mass index,2.00E-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs665268,17:40722029:A:G,67,0.2559,Type 2 diabetes,2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29632382' target='_blank'>29632382</a>
+META5,rs665268,17:40722029:A:G,67,0.2559,Type 2 diabetes,2.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30718926' target='_blank'>30718926</a>
+META5,rs2269906,17:42294337:A:C,68,0.3531,Mean corpuscular hemoglobin concentration,4e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28017375' target='_blank'>28017375</a>
+META5,rs2269906,17:42294337:A:C,68,0.3531,Mean corpuscular hemoglobin concentration,1e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28017375' target='_blank'>28017375</a>
+META5,rs10208,17:42300278:C:T,68,0.3272,Educational attainment (years of education),2.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs9901595,17:42305699:G:A,68,0.3495,Mean corpuscular hemoglobin concentration,2.00E-18,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29403010' target='_blank'>29403010</a>
+META5,rs8074740,17:42312778:G:A,68,0.3381,Diverticular disease,2.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30177863' target='_blank'>30177863</a>
+META5,rs11656316,17:42313644:A:G,68,0.3134,Educational attainment (years of education),4.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs9893756,17:42321109:T:C,68,0.6897,Body fat percentage,8.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30593698' target='_blank'>30593698</a>
+META5,rs9893756,17:42321109:T:C,68,0.6897,Body fat percentage,4.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30593698' target='_blank'>30593698</a>
+META5,rs7209801,17:42323376:G:A,68,0.3098,Urate levels,5.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31578528' target='_blank'>31578528</a>
+META5,rs13306780,17:42329004:A:C,68,0.6862,Red cell distribution width,3.00E-17,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28957414' target='_blank'>28957414</a>
+META5,rs2857078,17:42330171:A:C,68,0.6841,Red cell distribution width,1.9999999999999999e-22,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27863252' target='_blank'>27863252</a>
+META5,rs2857078,17:42330171:A:C,68,0.6841,Reticulocyte count,1.9999999999999998e-30,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27863252' target='_blank'>27863252</a>
+META5,rs2857078,17:42330171:A:C,68,0.6841,Mean corpuscular hemoglobin,1.00E-44,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs2857078,17:42330171:A:C,68,0.6841,Red cell distribution width,3.00E-43,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs5848,17:42430244:C:T,68,0.3080,Progranulin levels,5e-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29186428' target='_blank'>29186428</a>
+META5,rs5848,17:42430244:C:T,68,0.3080,Blood protein levels,8.00E-23,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29875488' target='_blank'>29875488</a>
+META5,rs5848,17:42430244:C:T,68,0.3080,Blood protein levels,1.00E-18,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29875488' target='_blank'>29875488</a>
+META5,rs5848,17:42430244:C:T,68,0.3080,Blood protein levels,5.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30072576' target='_blank'>30072576</a>
+META5,rs708382,17:42442344:T:C,68,0.4071,Platelet count,2e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/22139419' target='_blank'>22139419</a>
+META5,rs850734,17:42449025:C:G,68,0.3969,Platelet distribution width,2e-16,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27863252' target='_blank'>27863252</a>
+META5,rs5910,17:42449789:G:A,68,0.3984,Parkinson's disease,4e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs62065453,17:43573419:C:T,69,0.1971,Irritable mood,3.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs62065453,17:43573419:C:T,69,0.1971,Neuroticism,2.00E-24,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29255261' target='_blank'>29255261</a>
+META5,rs62065453,17:43573419:C:T,69,0.1971,Feeling nervous,6.00E-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs79742625,17:43657257:C:T,69,0.1425,Mouth ulcers,3.00E-18,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30837455' target='_blank'>30837455</a>
+META5,rs365825,17:43705601:A:G,69,0.1971,Parkinson's disease,3.9999999999999997e-32,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27182965' target='_blank'>27182965</a>
+META5,rs2942168,17:43714850:G:A,69,0.1964,Parkinson's disease,1e-28,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21292315' target='_blank'>21292315</a>
+META5,rs393152,17:43719143:A:G,69,0.1972,Parkinson's disease,2e-16,<a href='https://www.ncbi.nlm.nih.gov/pubmed/19915575' target='_blank'>19915575</a>
+META5,rs393152,17:43719143:A:G,69,0.1972,Corticobasal degeneration,1.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26077951' target='_blank'>26077951</a>
+META5,rs417968,17:43728376:G:A,69,0.7687,Educational attainment (years of education),6.00E-16,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs241036,17:43731719:A:C,69,0.1961,Experiencing mood swings,8.00E-20,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs241036,17:43731719:A:C,69,0.1961,Menarche (age at onset),6.999999999999999e-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs1724409,17:43740565:G:T,69,0.7691,Bitter alcoholic beverage consumption,1.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31046077' target='_blank'>31046077</a>
+META5,rs62053943,17:43744203:C:T,69,0.1422,General factor of neuroticism,4.00E-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30867560' target='_blank'>30867560</a>
+META5,rs62055691,17:43754850:T:C,69,0.1927,Alcohol consumption (drinks per week),2e-23,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30679032' target='_blank'>30679032</a>
+META5,rs62055701,17:43758787:G:A,69,0.1947,Irritable mood,6.00E-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs57222984,17:43758898:A:G,69,0.2174,Snoring,3.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30804565' target='_blank'>30804565</a>
+META5,rs76761706,17:43776741:T:C,69,0.1939,Neurociticism,7.00E-32,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs17688916,17:43778680:T:A,69,0.1788,Feeling worry,3.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs17688916,17:43778680:T:A,69,0.1788,Sleep duration (long sleep),1.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30846698' target='_blank'>30846698</a>
+META5,rs61667602,17:43785349:T:C,69,0.1965,Maximum habitual alcohol consumption,1e-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31151762' target='_blank'>31151762</a>
+META5,rs75022332,17:43810873:A:T,69,0.1953,Worry too long after an embarrassing experience,2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs77804065,17:43810896:C:T,69,0.2036,Maximum habitual alcohol consumption,2e-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31151762' target='_blank'>31151762</a>
+META5,rs77804065,17:43810896:C:T,69,0.2036,Neuroticism,8.00E-26,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29255261' target='_blank'>29255261</a>
+META5,rs77804065,17:43810896:C:T,69,0.2036,Feeling guilty,6.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs77804065,17:43810896:C:T,69,0.2036,Headache,6.00E-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29397368' target='_blank'>29397368</a>
+META5,rs77804065,17:43810896:C:T,69,0.2036,Neuroticism,1.00E-31,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29942085' target='_blank'>29942085</a>
+META5,rs17563683,17:43811072:A:G,69,0.1949,Hematocrit,2e-28,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27863252' target='_blank'>27863252</a>
+META5,rs17563683,17:43811072:A:G,69,0.1949,Hemoglobin concentration,3e-26,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27863252' target='_blank'>27863252</a>
+META5,rs7207400,17:43824360:T:C,69,0.2445,Alzheimer's disease in APOE e4- carriers,5.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25778476' target='_blank'>25778476</a>
+META5,rs7207400,17:43824360:T:C,69,0.2445,Worry,2.00E-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29942085' target='_blank'>29942085</a>
+META5,rs7207400,17:43824360:T:C,69,0.2445,Height,2.00E-30,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs12150672,17:43826637:G:A,69,0.1966,Red blood cell count,4e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28017375' target='_blank'>28017375</a>
+META5,rs17426174,17:43830938:G:C,69,0.1963,Intelligence (MTAG),6.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29326435' target='_blank'>29326435</a>
+META5,rs55657917,17:43844560:T:G,69,0.1950,Experiencing mood swings,3.00E-20,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs55657917,17:43844560:T:G,69,0.1950,Feeling hurt,7.00E-29,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs55657917,17:43844560:T:G,69,0.1950,Accelerometer-based physical activity measurement (average acceleration),5.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29899525' target='_blank'>29899525</a>
+META5,rs55657917,17:43844560:T:G,69,0.1950,Physical activity (overall physical activity time),8.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30531941' target='_blank'>30531941</a>
+META5,rs62055935,17:43848750:T:C,69,0.1965,Feeling nervous,2.00E-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs79730878,17:43849415:T:C,69,0.1958,Heel bone mineral density,6.00E-20,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30598549' target='_blank'>30598549</a>
+META5,rs62057061,17:43856639:C:G,69,0.1962,Depressed affect,2.00E-22,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29942085' target='_blank'>29942085</a>
+META5,rs56319902,17:43871982:C:T,69,0.1963,Educational attainment (years of education),6.00E-33,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs8072451,17:43893716:C:T,69,0.1971,Subcortical brain region volumes,1e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25607358' target='_blank'>25607358</a>
+META5,rs62057107,17:43896032:C:T,69,0.1962,Educational attainment (MTAG),5.00E-38,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs62057107,17:43896032:C:T,69,0.1962,Highest math class taken (MTAG),4.00E-28,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs4327090,17:43902541:A:G,69,0.1704,Highest math class taken,1.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs62057151,17:43903842:C:T,69,0.2043,Feeling worry,1.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs17689882,17:43906828:G:A,69,0.1964,Subcortical brain region volumes,8e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25607358' target='_blank'>25607358</a>
+META5,rs1876829,17:43911443:T:C,69,0.1964,Waist-to-hip ratio adjusted for BMI,6.999999999999999e-17,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30575882' target='_blank'>30575882</a>
+META5,rs1876829,17:43911443:T:C,69,0.1964,Waist-hip ratio,5e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30575882' target='_blank'>30575882</a>
+META5,rs2106785,17:43919105:C:T,69,0.1951,Irritable mood,3.00E-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs12185233,17:43923654:G:C,69,0.1970,Waist-to-hip ratio adjusted for BMI,2e-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30239722' target='_blank'>30239722</a>
+META5,rs12185268,17:43923683:A:G,69,0.1968,Parkinson's disease,3e-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21738487' target='_blank'>21738487</a>
+META5,rs12185268,17:43923683:A:G,69,0.1968,Corticobasal degeneration,1.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26077951' target='_blank'>26077951</a>
+META5,rs12373142,17:43924200:C:G,69,0.1961,Chronic obstructive pulmonary disease,1.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30804561' target='_blank'>30804561</a>
+META5,rs12373124,17:43924219:T:C,69,0.1959,Male-pattern baldness,5e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/22693459' target='_blank'>22693459</a>
+META5,rs12373124,17:43924219:T:C,69,0.1959,Male-pattern baldness,1.00E-27,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28196072' target='_blank'>28196072</a>
+META5,rs17690703,17:43925297:C:T,69,0.2333,Idiopathic pulmonary fibrosis,6.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/24429156' target='_blank'>24429156</a>
+META5,rs17769552,17:43927290:G:A,69,0.1926,Hand grip strength,2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29691431' target='_blank'>29691431</a>
+META5,rs79412431,17:43940021:G:A,69,0.1944,FEV1,3.00E-49,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30804560' target='_blank'>30804560</a>
+META5,rs79412431,17:43940021:G:A,69,0.1944,Lung function (FVC),3.00E-46,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30804560' target='_blank'>30804560</a>
+META5,rs79412431,17:43940021:G:A,69,0.1944,Peak expiratory flow,6.00E-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30804560' target='_blank'>30804560</a>
+META5,rs2214258,17:43953719:G:C,69,0.1933,Neuroticism,2.00E-25,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29255261' target='_blank'>29255261</a>
+META5,rs62055544,17:43964539:A:G,69,0.1937,Feeling fed-up,5.00E-16,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs62055546,17:43964567:A:C,69,0.1921,Alcohol consumption (drinks per week),8.00E-25,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643258' target='_blank'>30643258</a>
+META5,rs1864325,17:43977827:C:T,69,0.1965,Lumbar spine bone mineral density,5e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/22504420' target='_blank'>22504420</a>
+META5,rs17563986,17:43991272:A:G,69,0.1959,Cognitive ability,8e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29186694' target='_blank'>29186694</a>
+META5,rs17563986,17:43991272:A:G,69,0.1959,Cognitive ability (MTAG),5.0000000000000005e-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29186694' target='_blank'>29186694</a>
+META5,rs113100008,17:43789710:C:G,69,0.0623,Neuroticism,2.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29942085' target='_blank'>29942085</a>
+META5,rs4988344,17:59924612:G:C,71,0.1679,Red blood cell count,1.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs75545207,17:59979512:G:A,71,0.1618,Educational attainment (years of education),4.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs56794817,17:60001978:G:A,71,0.1668,Educational attainment (years of education),2.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs56794817,17:60001978:G:A,71,0.1668,Educational attainment (MTAG),3.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs57918684,17:60150383:G:A,71,0.1649,Coffee consumption,2.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31046077' target='_blank'>31046077</a>
+META5,rs9217,17:7363088:T:C,66,0.3674,Height,5e-20,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25282103' target='_blank'>25282103</a>
+META5,rs9217,17:7363088:T:C,66,0.3674,Highest math class taken (MTAG),4.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs55749333,17:7371932:C:T,66,0.6272,Corpus callosum posterior volume,8e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31530798' target='_blank'>31530798</a>
+META5,rs55749333,17:7371932:C:T,66,0.6272,Height,9.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31562340' target='_blank'>31562340</a>
+META5,rs55749333,17:7371932:C:T,66,0.6272,Height,3.00E-91,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs12942267,17:7372637:C:T,66,0.6282,Diverticular disease,3.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30177863' target='_blank'>30177863</a>
+META5,rs11658168,17:7406134:A:G,66,0.6273,Heel bone mineral density,1.00E-16,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30598549' target='_blank'>30598549</a>
+META5,rs6761,17:7417663:C:T,66,0.5987,Protein quantitative trait loci,3e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/18464913' target='_blank'>18464913</a>
+META5,rs9675122,17:7420294:C:G,66,0.6421,Atrial fibrillation,5.0000000000000005e-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29892015' target='_blank'>29892015</a>
+META5,rs8075280,17:7434819:A:T,66,0.6044,Spherical equivalent or myopia (age of diagnosis),9.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29808027' target='_blank'>29808027</a>
+META5,rs8073937,17:7435040:G:A,66,0.6443,Atrial fibrillation,1.0000000000000001e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29892015' target='_blank'>29892015</a>
+META5,rs2271613,17:76423097:G:A,72,0.7298,Waist-hip ratio,4.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs12605642,18:31313965:G:T,73,0.4894,Insomnia,2.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30804565' target='_blank'>30804565</a>
+META5,rs9947894,18:31328720:T:G,73,0.5034,Intake of total sugars,9e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31005972' target='_blank'>31005972</a>
+META5,rs1941687,18:31334667:A:C,73,0.4126,Subjective well-being,4e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27089181' target='_blank'>27089181</a>
+META5,rs1941687,18:31334667:A:C,73,0.4126,Subjective well-being (MTAG),5e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29292387' target='_blank'>29292387</a>
+META5,rs12608181,18:31339351:T:G,73,0.5018,Subjective well-being,5e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27089181' target='_blank'>27089181</a>
+META5,rs12608181,18:31339351:T:G,73,0.5018,Depressive symptoms (MTAG),2e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29292387' target='_blank'>29292387</a>
+META5,rs1493914,18:31362327:C:T,73,0.5144,Well-being spectrum (multivariate analysis),1.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643256' target='_blank'>30643256</a>
+META5,rs1493914,18:31362327:C:T,73,0.5144,Positive affect,2.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643256' target='_blank'>30643256</a>
+META5,rs1493914,18:31362327:C:T,73,0.5144,Depressive symptoms,2.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643256' target='_blank'>30643256</a>
+META5,rs1493914,18:31362327:C:T,73,0.5144,Neuroticism,2.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643256' target='_blank'>30643256</a>
+META5,rs4799723,18:31367050:T:G,73,0.5140,Worry,2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29942085' target='_blank'>29942085</a>
+META5,rs1493916,18:31392577:T:G,73,0.4785,Life satisfaction,8e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27089181' target='_blank'>27089181</a>
+META5,rs10460051,18:31413679:C:T,73,0.5037,Neurociticism,3.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs10460051,18:31413679:C:T,73,0.5037,Neuroticism,3.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29942085' target='_blank'>29942085</a>
+META5,rs11876492,18:31413804:T:C,73,0.4871,Neuroticism,2e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs12456492,18:40673380:A:G,74,0.3301,Parkinson's disease,2e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/22451204' target='_blank'>22451204</a>
+META5,rs12456492,18:40673380:A:G,74,0.3301,Parkinson's disease,8.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25064009' target='_blank'>25064009</a>
+META5,rs12456492,18:40673380:A:G,74,0.3301,Parkinson's disease,6e-16,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs4130047,18:40678235:T:C,74,0.3300,Parkinson's disease,2e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21738487' target='_blank'>21738487</a>
+META5,rs4130047,18:40678235:T:C,74,0.3300,Parkinson's disease,2e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27182965' target='_blank'>27182965</a>
+META5,rs8088085,18:48708548:A:C,75,0.4606,Atrial fibrillation,5e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29892015' target='_blank'>29892015</a>
+META5,rs8088085,18:48708548:A:C,75,0.4606,Atrial fibrillation,5.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30061737' target='_blank'>30061737</a>
+META5,rs57976196,18:48738645:G:A,75,0.4561,Highest math class taken (MTAG),3.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs16952939,18:48743642:G:A,75,0.4599,Educational attainment (MTAG),4.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs1941961,18:48744150:A:G,75,0.5350,Educational attainment (years of education),1.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs62092949,18:48779673:C:T,75,0.4858,Educational attainment (years of education),5.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs12726330,1:155108167:G:A,1,0.0154,Parkinson's disease,5e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/22451204' target='_blank'>22451204</a>
+META5,rs35749011,1:155135036:G:A,1,0.0139,Parkinson's disease,1.00E-29,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25064009' target='_blank'>25064009</a>
+META5,rs35749011,1:155135036:G:A,1,0.0139,Parkinson's disease,3e-35,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs35749011,1:155135036:G:A,1,0.0139,Dementia with Lewy bodies,7.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29263008' target='_blank'>29263008</a>
+META5,rs2230288,1:155206167:C:T,1,0.0141,Parkinson's disease,5e-17,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27182965' target='_blank'>27182965</a>
+META5,rs7535475,1:161463587:C:A,2,0.5653,"Functional impairment in major depressive disorder, bipolar disorder and schizophrenia",3.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/24039173' target='_blank'>24039173</a>
+META5,rs7535475,1:161463587:C:A,2,0.5653,Blood protein levels,9.999999999999994e-301,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30072576' target='_blank'>30072576</a>
+META5,rs7551957,1:161470042:T:C,2,0.4657,Blood protein levels,1.9999999999999994e-111,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28240269' target='_blank'>28240269</a>
+META5,rs6671847,1:161478810:G:A,2,0.4659,Systemic lupus erythematosus,1e-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26502338' target='_blank'>26502338</a>
+META5,rs4657041,1:161478859:T:C,2,0.5025,Blood protein levels,8E-426,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29875488' target='_blank'>29875488</a>
+META5,rs1801274,1:161479745:A:G,2,0.5014,Ulcerative colitis,2e-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/19915573' target='_blank'>19915573</a>
+META5,rs1801274,1:161479745:A:G,2,0.5014,Ulcerative colitis,2.0000000000000002e-20,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21297633' target='_blank'>21297633</a>
+META5,rs1801274,1:161479745:A:G,2,0.5014,Inflammatory bowel disease,2e-38,<a href='https://www.ncbi.nlm.nih.gov/pubmed/23128233' target='_blank'>23128233</a>
+META5,rs1801274,1:161479745:A:G,2,0.5014,Kawasaki disease,7.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/22081228' target='_blank'>22081228</a>
+META5,rs1801274,1:161479745:A:G,2,0.5014,Systemic lupus erythematosus,9.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/24871463' target='_blank'>24871463</a>
+META5,rs1801274,1:161479745:A:G,2,0.5014,Crohn's disease,9.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26192919' target='_blank'>26192919</a>
+META5,rs1801274,1:161479745:A:G,2,0.5014,Ulcerative colitis,1.00E-41,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26192919' target='_blank'>26192919</a>
+META5,rs1801274,1:161479745:A:G,2,0.5014,Systemic lupus erythematosus,6.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27399966' target='_blank'>27399966</a>
+META5,rs1801274,1:161479745:A:G,2,0.5014,Inflammatory bowel disease,9.00E-36,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26192919' target='_blank'>26192919</a>
+META5,rs1801274,1:161479745:A:G,2,0.5014,Systemic lupus erythematosus,7e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26663301' target='_blank'>26663301</a>
+META5,rs1801274,1:161479745:A:G,2,0.5014,Ankylosing spondylitis,1e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/23749187' target='_blank'>23749187</a>
+META5,rs1801274,1:161479745:A:G,2,0.5014,Systemic lupus erythematosus,1e-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26502338' target='_blank'>26502338</a>
+META5,rs1801274,1:161479745:A:G,2,0.5014,Ulcerative colitis,2e-18,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28067908' target='_blank'>28067908</a>
+META5,rs1801274,1:161479745:A:G,2,0.5014,Kawasaki disease,1e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28886140' target='_blank'>28886140</a>
+META5,rs1801274,1:161479745:A:G,2,0.5014,Inflammatory bowel disease,9e-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28067908' target='_blank'>28067908</a>
+META5,rs1801274,1:161479745:A:G,2,0.5014,Serum total protein level,4.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29403010' target='_blank'>29403010</a>
+META5,rs1801274,1:161479745:A:G,2,0.5014,Cerebrospinal fluid biomarker levels,9.00E-36,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28031287' target='_blank'>28031287</a>
+META5,rs1801274,1:161479745:A:G,2,0.5014,Systemic lupus erythematosus,2.00E-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28714469' target='_blank'>28714469</a>
+META5,rs1801274,1:161479745:A:G,2,0.5014,Blood protein levels,1E-2102,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29875488' target='_blank'>29875488</a>
+META5,rs11799420,1:171652978:T:C,3,0.1842,Hippocampal atrophy,4.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25625606' target='_blank'>25625606</a>
+META5,rs3747973,1:205677148:A:G,4,0.6004,Lung function (FVC),2.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs951366,1:205685352:T:C,4,0.3817,Menarche (age at onset),2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25231870' target='_blank'>25231870</a>
+META5,rs951366,1:205685352:T:C,4,0.3817,Atrial fibrillation,8e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29892015' target='_blank'>29892015</a>
+META5,rs951366,1:205685352:T:C,4,0.3817,Free thyroxine concentration,6e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30367059' target='_blank'>30367059</a>
+META5,rs823094,1:205689807:T:G,4,0.4231,Pubertal anthropometrics,2e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/23449627' target='_blank'>23449627</a>
+META5,rs4951258,1:205691316:G:A,4,0.3811,Atrial fibrillation,2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30061737' target='_blank'>30061737</a>
+META5,rs1775154,1:205696615:T:A,4,0.4244,QT interval,6.00E-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/24952745' target='_blank'>24952745</a>
+META5,rs4951261,1:205717823:A:C,4,0.3819,Atrial fibrillation,1e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29892015' target='_blank'>29892015</a>
+META5,rs823114,1:205719532:G:A,4,0.5575,Parkinson's disease,3.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/24842889' target='_blank'>24842889</a>
+META5,rs823114,1:205719532:G:A,4,0.5575,Body mass index,4e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892062' target='_blank'>28892062</a>
+META5,rs823114,1:205719532:G:A,4,0.5575,Alcohol consumption (drinks per week),2.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643251' target='_blank'>30643251</a>
+META5,rs823114,1:205719532:G:A,4,0.5575,HDL cholesterol,5.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30275531' target='_blank'>30275531</a>
+META5,rs823114,1:205719532:G:A,4,0.5575,Alcohol consumption (drinks per week) (MTAG),2.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643251' target='_blank'>30643251</a>
+META5,rs823118,1:205723572:C:T,4,0.5591,Parkinson's disease,2.00E-16,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25064009' target='_blank'>25064009</a>
+META5,rs823118,1:205723572:C:T,4,0.5591,Parkinson's disease,1e-23,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs823118,1:205723572:C:T,4,0.5591,Parkinson's disease,5.9999999999999995e-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27182965' target='_blank'>27182965</a>
+META5,rs823118,1:205723572:C:T,4,0.5591,Height,1.00E-34,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs823141,1:205741426:T:C,4,0.4240,Essential tremor,2e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27797806' target='_blank'>27797806</a>
+META5,rs823143,1:205743425:A:C,4,0.4240,Monocyte percentage of white cells,4e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27863252' target='_blank'>27863252</a>
+META5,rs4951254,1:205642390:T:C,4,0.8256,White blood cell count (basophil),3.00E-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29403010' target='_blank'>29403010</a>
+META5,rs2153904,1:205642790:T:G,4,0.8313,Prostate-specific antigen levels,1.00E-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25434496' target='_blank'>25434496</a>
+META5,rs12748961,1:205676263:T:C,4,0.1346,White blood cell types,4e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21738478' target='_blank'>21738478</a>
+META5,rs4653767,1:226916078:T:C,5,0.2700,Parkinson's disease,2.0000000000000002e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs10797576,1:232664611:C:T,6,0.1266,Parkinson's disease,5.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25064009' target='_blank'>25064009</a>
+META5,rs10797576,1:232664611:C:T,6,0.1266,Parkinson's disease,8e-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs11589828,1:232669272:T:A,6,0.1313,Blood pressure (smoking interaction),8e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25189868' target='_blank'>25189868</a>
+META5,rs6543087,2:102315933:A:T,9,0.3642,White blood cell count,5.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs34043159,2:102413116:T:C,9,0.3102,Parkinson's disease,5e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs2390669,2:169091942:A:C,11,0.1295,Body mass index,6e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892062' target='_blank'>28892062</a>
+META5,rs2390669,2:169091942:A:C,11,0.1295,Body mass index,2e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892062' target='_blank'>28892062</a>
+META5,rs1474055,2:169110394:C:T,11,0.1198,Parkinson's disease,1.00E-20,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25064009' target='_blank'>25064009</a>
+META5,rs1474055,2:169110394:C:T,11,0.1198,Parkinson's disease,6e-26,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs2102808,2:169117025:G:T,11,0.1205,Parkinson's disease,4e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21292315' target='_blank'>21292315</a>
+META5,rs4613239,2:169119609:C:G,11,0.1202,Height,1.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs9917256,2:169143035:G:A,11,0.1216,Parkinson's disease,3e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/22451204' target='_blank'>22451204</a>
+META5,rs13016703,2:169155595:T:G,11,0.1227,Parkinson's disease,3e-16,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27182965' target='_blank'>27182965</a>
+META5,rs17265703,3:122048644:A:G,15,0.1530,Phosphorus levels,4.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/20558539' target='_blank'>20558539</a>
+META5,rs2332179,3:122079430:A:G,15,0.1461,Educational attainment (years of education),3.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs66508963,3:122084529:A:G,15,0.1455,Educational attainment (years of education),2.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs67931976,3:122105715:A:G,15,0.1620,Highest math class taken (MTAG),2.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs76553065,3:151114597:C:G,16,0.3774,Hair color,4e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs11708767,3:151119726:G:A,16,0.4203,Alzheimer's disease with no specific cognitive domain impairment,3.00E-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30514930' target='_blank'>30514930</a>
+META5,rs6441364,3:160897915:T:G,17,0.3205,Educational attainment (MTAG),1.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs163327,3:161062724:A:G,17,0.4740,Number of sexual partners,2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643258' target='_blank'>30643258</a>
+META5,rs67460515,3:161068566:T:C,17,0.3114,Parkinson's disease,1e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs16832246,3:161109916:G:A,17,0.3498,Systolic blood pressure,7e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs73021449,3:161128941:G:A,17,0.3492,Adventurousness,3.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643258' target='_blank'>30643258</a>
+META5,rs2004862,3:161135638:C:T,17,0.4405,Morning vs. evening chronotype,7.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26835600' target='_blank'>26835600</a>
+META5,rs9858038,3:182730291:G:A,18,0.1926,Parkinson's disease,3e-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27182965' target='_blank'>27182965</a>
+META5,rs2270968,3:182755209:T:G,18,0.7418,Blood metabolite levels,1e-16,<a href='https://www.ncbi.nlm.nih.gov/pubmed/24816252' target='_blank'>24816252</a>
+META5,rs2270968,3:182755209:T:G,18,0.7418,Parkinson's disease,3e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28011712' target='_blank'>28011712</a>
+META5,rs10513789,3:182760073:T:G,18,0.1925,Parkinson's disease,3e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21738487' target='_blank'>21738487</a>
+META5,rs12637471,3:182762437:G:A,18,0.1928,Parkinson's disease,2.00E-21,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25064009' target='_blank'>25064009</a>
+META5,rs12637471,3:182762437:G:A,18,0.1928,Parkinson's disease,1.9999999999999998e-30,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs11711441,3:182821275:G:A,18,0.1336,Parkinson's disease,8e-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21292315' target='_blank'>21292315</a>
+META5,rs7617877,3:28705764:A:G,13,0.6323,Parkinson's disease,3e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21044948' target='_blank'>21044948</a>
+META5,rs12497850,3:48748989:G:T,14,0.6406,Parkinson's disease,9e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs7431710,3:48935583:G:A,14,0.6475,Smoking behaviour (cigarettes smoked per day),1.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643251' target='_blank'>30643251</a>
+META5,rs7636057,3:48992582:C:T,14,0.6501,Cigarettes smoked per day (MTAG),3.00E-17,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643251' target='_blank'>30643251</a>
+META5,rs78738012,4:114360372:T:C,24,0.0914,Parkinson's disease,5e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs11724635,4:15737101:C:A,20,0.5463,Parkinson's disease,1e-16,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21292315' target='_blank'>21292315</a>
+META5,rs11724635,4:15737101:C:A,20,0.5463,Parkinson's disease,9.00E-18,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25064009' target='_blank'>25064009</a>
+META5,rs11724635,4:15737101:C:A,20,0.5463,Parkinson's disease,1e-19,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs4698412,4:15737348:G:A,20,0.5465,Parkinson's disease,2e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21084426' target='_blank'>21084426</a>
+META5,rs4698412,4:15737348:G:A,20,0.5465,Parkinson's disease,3e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/22451204' target='_blank'>22451204</a>
+META5,rs12647126,4:170376705:A:G,25,0.5582,Schizophrenia,3.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31268507' target='_blank'>31268507</a>
+META5,rs7678436,4:17797966:G:A,21,0.1406,Height,8e-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/20189936' target='_blank'>20189936</a>
+META5,rs7678436,4:17797966:G:A,21,0.1406,Height,2.00E-40,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25429064' target='_blank'>25429064</a>
+META5,rs7678436,4:17797966:G:A,21,0.1406,Height,1.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31217584' target='_blank'>31217584</a>
+META5,rs11932971,4:17823902:T:C,21,0.1362,Intelligence,5.00E-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29942086' target='_blank'>29942086</a>
+META5,rs16895888,4:17853921:G:A,21,0.1405,Cognitive performance (MTAG),1.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs16895888,4:17853921:G:A,21,0.1405,Cognitive performance,2.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30038396' target='_blank'>30038396</a>
+META5,rs75878186,4:17857253:A:G,21,0.1184,General cognitive ability,3.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29844566' target='_blank'>29844566</a>
+META5,rs79334166,4:17859466:A:G,21,0.1182,Body fat distribution (arm fat ratio),7.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30664634' target='_blank'>30664634</a>
+META5,rs79334166,4:17859466:A:G,21,0.1182,Body fat distribution (leg fat ratio),3.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30664634' target='_blank'>30664634</a>
+META5,rs79334166,4:17859466:A:G,21,0.1182,Body fat distribution (leg fat ratio),7.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30664634' target='_blank'>30664634</a>
+META5,rs79334166,4:17859466:A:G,21,0.1182,Body fat distribution (trunk fat ratio),1.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30664634' target='_blank'>30664634</a>
+META5,rs79334166,4:17859466:A:G,21,0.1182,Body fat distribution (trunk fat ratio),4.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30664634' target='_blank'>30664634</a>
+META5,rs58854324,4:17864014:T:C,21,0.1419,Cardiovascular disease,1.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs185373991,4:17865864:T:A,21,0.1120,Familial squamous cell lung carcinoma,3.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29924316' target='_blank'>29924316</a>
+META5,rs13131350,4:17877487:A:G,21,0.1290,Height,1.00E-53,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25429064' target='_blank'>25429064</a>
+META5,rs13131350,4:17877487:A:G,21,0.1290,Height,1.00E-17,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31217584' target='_blank'>31217584</a>
+META5,rs7700107,4:17880416:A:C,21,0.1300,Height,2.00E-152,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31562340' target='_blank'>31562340</a>
+META5,rs34916030,4:17901054:G:T,21,0.1267,Lung function (FVC),1.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs7692995,4:17936634:T:C,21,0.1498,Height,9.999999999999997e-72,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25282103' target='_blank'>25282103</a>
+META5,rs7692995,4:17936634:T:C,21,0.1498,Height,2.00E-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31217584' target='_blank'>31217584</a>
+META5,rs16896068,4:17944840:G:A,21,0.1501,Height,2e-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/18391952' target='_blank'>18391952</a>
+META5,rs16896068,4:17944840:G:A,21,0.1501,Height,6.00E-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31217584' target='_blank'>31217584</a>
+META5,rs7684221,4:17957354:G:A,21,0.1497,Waist circumference adjusted for BMI (joint analysis main effects and smoking interaction),2e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28443625' target='_blank'>28443625</a>
+META5,rs7684221,4:17957354:G:A,21,0.1497,Waist circumference adjusted for BMI (joint analysis main effects and smoking interaction),7e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28443625' target='_blank'>28443625</a>
+META5,rs7684221,4:17957354:G:A,21,0.1497,Waist circumference adjusted for BMI in non-smokers,3e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28443625' target='_blank'>28443625</a>
+META5,rs7684221,4:17957354:G:A,21,0.1497,Waist circumference adjusted for BMI in non-smokers,6e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28443625' target='_blank'>28443625</a>
+META5,rs7684221,4:17957354:G:A,21,0.1497,Waist circumference adjusted for BMI in smokers,9e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28443625' target='_blank'>28443625</a>
+META5,rs7684221,4:17957354:G:A,21,0.1497,Waist circumference adjusted for body mass index,3e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25673412' target='_blank'>25673412</a>
+META5,rs7684221,4:17957354:G:A,21,0.1497,Waist circumference adjusted for body mass index,4e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25673412' target='_blank'>25673412</a>
+META5,rs7684221,4:17957354:G:A,21,0.1497,Waist circumference adjusted for BMI (adjusted for smoking behaviour),5e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28443625' target='_blank'>28443625</a>
+META5,rs7684221,4:17957354:G:A,21,0.1497,Waist circumference adjusted for BMI (adjusted for smoking behaviour),9e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28443625' target='_blank'>28443625</a>
+META5,rs35362908,4:17994298:T:C,21,0.1285,Height,7e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28270201' target='_blank'>28270201</a>
+META5,rs6824748,4:17997066:G:A,21,0.1509,Fat-free mass,5.00E-28,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30593698' target='_blank'>30593698</a>
+META5,rs6824748,4:17997066:G:A,21,0.1509,Fat-free mass,6.00E-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30593698' target='_blank'>30593698</a>
+META5,rs6824748,4:17997066:G:A,21,0.1509,Fat-free mass,6.00E-17,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30593698' target='_blank'>30593698</a>
+META5,rs6824748,4:17997066:G:A,21,0.1509,Height,2.00E-268,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs6850306,4:18006089:G:A,21,0.1319,Alzheimer's disease progression score,1.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29860282' target='_blank'>29860282</a>
+META5,rs6830062,4:18017730:T:C,21,0.1504,Height,1e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/18391951' target='_blank'>18391951</a>
+META5,rs6830062,4:18017730:T:C,21,0.1504,Height,8e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/20397748' target='_blank'>20397748</a>
+META5,rs6830062,4:18017730:T:C,21,0.1504,Height,5e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/19343178' target='_blank'>19343178</a>
+META5,rs6830062,4:18017730:T:C,21,0.1504,Height,5.00E-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31217584' target='_blank'>31217584</a>
+META5,rs1380294,4:18024121:C:T,21,0.1499,Infant length,3.00E-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25281659' target='_blank'>25281659</a>
+META5,rs6449353,4:18033488:T:C,21,0.1506,Height,7e-46,<a href='https://www.ncbi.nlm.nih.gov/pubmed/20881960' target='_blank'>20881960</a>
+META5,rs6449353,4:18033488:T:C,21,0.1506,Birth length,1.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25281659' target='_blank'>25281659</a>
+META5,rs6449353,4:18033488:T:C,21,0.1506,Height,7.00E-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31217584' target='_blank'>31217584</a>
+META5,rs6812193,4:77198986:C:T,22,0.3614,Parkinson's disease,4e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/19915575' target='_blank'>19915575</a>
+META5,rs6812193,4:77198986:C:T,22,0.3614,Parkinson's disease,8e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21738487' target='_blank'>21738487</a>
+META5,rs6812193,4:77198986:C:T,22,0.3614,Parkinson's disease,3.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25064009' target='_blank'>25064009</a>
+META5,rs6812193,4:77198986:C:T,22,0.3614,Parkinson's disease,1e-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs6812193,4:77198986:C:T,22,0.3614,Parkinson's disease,7e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27182965' target='_blank'>27182965</a>
+META5,rs356182,4:90626111:G:A,23,0.6505,Parkinson's disease,4.00E-73,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25064009' target='_blank'>25064009</a>
+META5,rs356182,4:90626111:G:A,23,0.6505,Parkinson's disease,4.9999999999999996e-123,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs356182,4:90626111:G:A,23,0.6505,Parkinson's disease,1e-56,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27182965' target='_blank'>27182965</a>
+META5,rs356179,4:90628439:C:G,23,0.6550,Insomnia,1.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30804565' target='_blank'>30804565</a>
+META5,rs356219,4:90637601:G:A,23,0.6355,Parkinson's disease,2e-47,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21292315' target='_blank'>21292315</a>
+META5,rs356219,4:90637601:G:A,23,0.6355,Parkinson's disease,5.999999999999999e-65,<a href='https://www.ncbi.nlm.nih.gov/pubmed/22438815' target='_blank'>22438815</a>
+META5,rs356220,4:90641340:T:C,23,0.6399,Parkinson's disease,3e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21084426' target='_blank'>21084426</a>
+META5,rs356220,4:90641340:T:C,23,0.6399,Parkinson's disease,3e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/20711177' target='_blank'>20711177</a>
+META5,rs356220,4:90641340:T:C,23,0.6399,Parkinson's disease,9e-16,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21044948' target='_blank'>21044948</a>
+META5,rs356220,4:90641340:T:C,23,0.6399,Parkinson's disease,2e-19,<a href='https://www.ncbi.nlm.nih.gov/pubmed/21738487' target='_blank'>21738487</a>
+META5,rs356220,4:90641340:T:C,23,0.6399,Parkinson's disease,8e-35,<a href='https://www.ncbi.nlm.nih.gov/pubmed/22451204' target='_blank'>22451204</a>
+META5,rs356220,4:90641340:T:C,23,0.6399,Parkinson's disease,1.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/24511991' target='_blank'>24511991</a>
+META5,rs356220,4:90641340:T:C,23,0.6399,Parkinson's disease,3.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/24511991' target='_blank'>24511991</a>
+META5,rs356203,4:90666041:C:T,23,0.6341,Parkinson's disease (age of onset),2.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30957308' target='_blank'>30957308</a>
+META5,rs2736990,4:90678541:G:A,23,0.5423,Parkinson's disease,2e-16,<a href='https://www.ncbi.nlm.nih.gov/pubmed/19915575' target='_blank'>19915575</a>
+META5,rs2736990,4:90678541:G:A,23,0.5423,Parkinson's disease,7e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/20070850' target='_blank'>20070850</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,Parkinson's disease,1.00E-43,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25064009' target='_blank'>25064009</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,Parkinson's disease,1e-50,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,Triglyceride levels in current drinkers,1e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30698716' target='_blank'>30698716</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,Triglyceride levels in current drinkers,5e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30698716' target='_blank'>30698716</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,HDL cholesterol levels in current drinkers,1e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30698716' target='_blank'>30698716</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,Waist-to-hip ratio adjusted for BMI,3e-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30239722' target='_blank'>30239722</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,HDL cholesterol levels x alcohol consumption (drinkers vs non-drinkers) interaction (2df),2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30698716' target='_blank'>30698716</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,Triglyceride levels x alcohol consumption (drinkers vs non-drinkers) interaction (2df),1.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30698716' target='_blank'>30698716</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,HDL cholesterol levels x alcohol consumption (drinkers vs non-drinkers) interaction (2df),1.00E-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30698716' target='_blank'>30698716</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,Triglyceride levels x alcohol consumption (drinkers vs non-drinkers) interaction (2df),1.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30698716' target='_blank'>30698716</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,HDL cholesterol levels x alcohol consumption (regular vs non-regular drinkers) interaction (2df),8.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30698716' target='_blank'>30698716</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,Triglyceride levels x alcohol consumption (regular vs non-regular drinkers) interaction (2df),2.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30698716' target='_blank'>30698716</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,HDL cholesterol levels x alcohol consumption (regular vs non-regular drinkers) interaction (2df),6.00E-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30698716' target='_blank'>30698716</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,Triglyceride levels x smoking (current vs non smokers) interaction (2df test),3.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30926973' target='_blank'>30926973</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,HDL cholesterol levels x smoking (current vs non smokers) interaction (2df test),8.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30926973' target='_blank'>30926973</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,HDL cholesterol levels x smoking (current vs non smokers) interaction (2df test),2.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30926973' target='_blank'>30926973</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,HDL cholesterol levels x smoking (ever vs never smokers) interaction (2df test),7.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30926973' target='_blank'>30926973</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,HDL cholesterol levels,5.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30926973' target='_blank'>30926973</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,Triglyceride levels,4.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30926973' target='_blank'>30926973</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,Triglyceride levels x alcohol consumption (regular vs non-regular drinkers) interaction (2df),3.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30698716' target='_blank'>30698716</a>
+META5,rs34311866,4:951947:T:C,19,0.1897,Parkinson's disease (age of onset),1.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30957308' target='_blank'>30957308</a>
+META5,rs11248060,4:964359:C:T,19,0.1187,Parkinson's disease,2e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/20070850' target='_blank'>20070850</a>
+META5,rs11248060,4:964359:C:T,19,0.1187,Parkinson's disease,2.9999999999999997e-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/22438815' target='_blank'>22438815</a>
+META5,rs11248060,4:964359:C:T,19,0.1187,Parkinson's disease,3e-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/22451204' target='_blank'>22451204</a>
+META5,rs17154889,5:102305065:C:A,27,0.3087,Waist-hip ratio,7.00E-16,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs6889592,5:102313939:G:A,27,0.3282,Sleep duration,1.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30804565' target='_blank'>30804565</a>
+META5,rs10463554,5:102318974:T:C,27,0.3277,Parkinson's disease,2e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs56372231,5:102321905:C:T,27,0.3283,Sleep duration,2.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30846698' target='_blank'>30846698</a>
+META5,rs3776864,5:102327868:A:C,27,0.3247,Sleep duration (short sleep),2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30846698' target='_blank'>30846698</a>
+META5,rs26431,5:102365794:G:C,27,0.6922,Feeling worry,2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs257309,5:102418604:A:G,27,0.3475,Blood protein levels,4.00E-79,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29875488' target='_blank'>29875488</a>
+META5,rs34781,5:102454439:C:T,27,0.3124,Waist-to-hip ratio adjusted for BMI,8e-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30239722' target='_blank'>30239722</a>
+META5,rs28061,5:102543878:A:G,27,0.2990,Insomnia symptoms (never/rarely vs. sometimes/usually),2.00E-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30804566' target='_blank'>30804566</a>
+META5,rs28061,5:102543878:A:G,27,0.2990,Insomnia symptoms (never/rarely vs. usually),1.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30804566' target='_blank'>30804566</a>
+META5,rs246914,5:102559407:T:C,27,0.2471,Worry,5.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29942085' target='_blank'>29942085</a>
+META5,rs78165052,5:134250596:C:T,28,0.1325,Blood protein levels,4.00E-17,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30072576' target='_blank'>30072576</a>
+META5,rs162227,5:60260543:C:T,26,0.9022,Parkinson's disease,1e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27182965' target='_blank'>27182965</a>
+META5,rs2694528,5:60273923:C:A,26,0.9021,Parkinson's disease,5e-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+Asian,rs2270927,5:75591710:C:G,1,0.0997,Mean corpuscular volume,3.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27863252' target='_blank'>27863252</a>
+Asian,rs31243,5:75594360:A:G,1,0.1,Red cell distribution width,1.00E-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs2148710,6:112122226:C:T,33,0.1290,Anger,3.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/24489884' target='_blank'>24489884</a>
+META5,rs7757969,6:112132032:T:C,33,0.1288,Schizophrenia,5.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28991256' target='_blank'>28991256</a>
+META5,rs7757969,6:112132032:T:C,33,0.1288,Schizophrenia,8.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30285260' target='_blank'>30285260</a>
+META5,rs943437,6:112242253:A:G,33,0.1206,Parkinson's disease,6e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs9366697,6:27633018:T:C,29,0.3416,Feeling guilty,5.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs4713118,6:27676794:A:G,29,0.2481,Parkinson's disease,2e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27182965' target='_blank'>27182965</a>
+META5,rs9380010,6:27683572:A:G,29,0.2282,Life satisfaction,1.00E-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643256' target='_blank'>30643256</a>
+META5,rs9380010,6:27683572:A:G,29,0.2282,Positive affect,4.00E-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643256' target='_blank'>30643256</a>
+META5,rs9380010,6:27683572:A:G,29,0.2282,Neuroticism,2.00E-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643256' target='_blank'>30643256</a>
+META5,rs2056923,6:27689939:T:C,29,0.1565,General cognitive ability,7.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29844566' target='_blank'>29844566</a>
+META5,rs6940116,6:27708732:A:G,29,0.1555,Autism spectrum disorder or schizophrenia,2e-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28540026' target='_blank'>28540026</a>
+META5,rs6940116,6:27708732:A:G,29,0.1555,Intelligence (MTAG),2.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29326435' target='_blank'>29326435</a>
+META5,rs200476,6:27768348:A:T,29,0.1764,Benign prostatic hyperplasia and lower urinary tract symptoms,4.00E-17,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30410027' target='_blank'>30410027</a>
+META5,rs200476,6:27768348:A:T,29,0.1764,Benign prostatic hyperplasia and lower urinary tract symptoms (prostate cancer excluded),4.00E-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30410027' target='_blank'>30410027</a>
+META5,rs200988,6:27819353:T:G,29,0.2501,Feeling guilty,1.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29500382' target='_blank'>29500382</a>
+META5,rs169287,6:27854760:C:A,29,0.1546,Diastolic blood pressure,5.0000000000000005e-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27841878' target='_blank'>27841878</a>
+META5,rs169287,6:27854760:C:A,29,0.1546,Pulse pressure,3e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27841878' target='_blank'>27841878</a>
+META5,rs200965,6:27866384:G:A,29,0.1558,Neuroticism,1.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29942085' target='_blank'>29942085</a>
+META5,rs7767188,6:30073776:G:A,30,0.2110,Prostate cancer,2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29892016' target='_blank'>29892016</a>
+META5,rs2022065,6:30121460:C:T,30,0.3237,Reticulocyte count,1e-23,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27863252' target='_blank'>27863252</a>
+META5,rs2022065,6:30121460:C:T,30,0.3237,High light scatter reticulocyte percentage of red cells,2e-35,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27863252' target='_blank'>27863252</a>
+META5,rs2022065,6:30121460:C:T,30,0.3237,High light scatter reticulocyte count,1e-34,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27863252' target='_blank'>27863252</a>
+META5,rs2022065,6:30121460:C:T,30,0.3237,Reticulocyte fraction of red cells,3e-25,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27863252' target='_blank'>27863252</a>
+META5,rs2022065,6:30121460:C:T,30,0.3237,Immature fraction of reticulocytes,3e-30,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27863252' target='_blank'>27863252</a>
+META5,rs2844775,6:30179422:G:A,30,0.2614,Anger,8.00E-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/24489884' target='_blank'>24489884</a>
+META5,rs9380159,6:30186681:C:T,30,0.2452,Shingles,8e-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28928442' target='_blank'>28928442</a>
+META5,rs3763309,6:32375973:C:A,31,0.2033,Rheumatoid arthritis,1.9999999999999994e-124,<a href='https://www.ncbi.nlm.nih.gov/pubmed/24449572' target='_blank'>24449572</a>
+META5,rs3763309,6:32375973:C:A,31,0.2033,Asthma,1.00E-18,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29273806' target='_blank'>29273806</a>
+META5,rs3763312,6:32376348:G:A,31,0.2032,HIV-1 viral setpoint,6.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26039976' target='_blank'>26039976</a>
+META5,rs2395163,6:32387809:T:C,31,0.1986,Parkinson's disease,3e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/22451204' target='_blank'>22451204</a>
+META5,rs687308,6:32567256:C:T,31,,Medication use (immunosuppressants),2.00E-84,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31015401' target='_blank'>31015401</a>
+META5,rs34039593,6:32570311:T:G,31,,Response to hepatitis B vaccine,6.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29534301' target='_blank'>29534301</a>
+META5,rs17425622,6:32571961:T:C,31,,Parkinson's disease,4e-17,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27182965' target='_blank'>27182965</a>
+META5,rs660895,6:32577380:A:G,31,0.1927,Rheumatoid arthritis,9.999999999999999e-109,<a href='https://www.ncbi.nlm.nih.gov/pubmed/17804836' target='_blank'>17804836</a>
+META5,rs660895,6:32577380:A:G,31,0.1927,IgA nephropathy,4.0000000000000004e-20,<a href='https://www.ncbi.nlm.nih.gov/pubmed/22197929' target='_blank'>22197929</a>
+META5,rs660895,6:32577380:A:G,31,0.1927,IgA nephropathy,1.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26028593' target='_blank'>26028593</a>
+META5,rs660895,6:32577380:A:G,31,0.1927,Rheumatoid arthritis (ACPA-positive),1.00E-300,<a href='https://www.ncbi.nlm.nih.gov/pubmed/23143596' target='_blank'>23143596</a>
+META5,rs660895,6:32577380:A:G,31,0.1927,Rheumatoid arthritis,1.00E-300,<a href='https://www.ncbi.nlm.nih.gov/pubmed/23143596' target='_blank'>23143596</a>
+META5,rs660895,6:32577380:A:G,31,0.1927,Rheumatoid arthritis (ACPA-negative),2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/23143596' target='_blank'>23143596</a>
+META5,rs3104413,6:32582650:C:G,31,0.1548,ACPA-positive rheumatoid arthritis (smoking interaction),2e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26272072' target='_blank'>26272072</a>
+META5,rs3104413,6:32582650:C:G,31,0.1548,Rheumatoid arthritis,5.0000000000000005e-21,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25014791' target='_blank'>25014791</a>
+META5,rs6931277,6:32583357:A:T,31,0.1547,ACPA-positive rheumatoid arthritis (smoking interaction),2e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26272072' target='_blank'>26272072</a>
+META5,rs6931277,6:32583357:A:T,31,0.1547,Family history of Alzheimer's disease,2.00E-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30617256' target='_blank'>30617256</a>
+META5,rs6931277,6:32583357:A:T,31,0.1547,Alzheimer's disease or family history of Alzheimer's disease,8.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30617256' target='_blank'>30617256</a>
+META5,rs9271608,6:32591588:A:G,31,0.1549,C-reactive protein levels,2.00E-17,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30388399' target='_blank'>30388399</a>
+META5,rs9272131,6:32600671:C:T,31,,PEG-asparaginase hypersensitivity without enzyme activity in childhood acute lymphoblastic leukaemia,9e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30450575' target='_blank'>30450575</a>
+META5,rs1391371,6:32603798:A:T,31,,Chronic rhinosinusitis,4.00E-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643255' target='_blank'>30643255</a>
+META5,rs1391371,6:32603798:A:T,31,,Nasal polyps,7.00E-49,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30643255' target='_blank'>30643255</a>
+META5,rs1391371,6:32603798:A:T,31,,Medication use (glucocorticoids),2.00E-48,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31015401' target='_blank'>31015401</a>
+META5,rs9275326,6:32666660:C:T,31,0.0972,Parkinson's disease,1.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25064009' target='_blank'>25064009</a>
+META5,rs9275326,6:32666660:C:T,31,0.0972,Parkinson's disease,1e-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs9275334,6:32667107:T:C,31,0.0977,ACPA-positive rheumatoid arthritis (smoking interaction),2e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26272072' target='_blank'>26272072</a>
+META5,rs9275495,6:32673574:A:T,31,0.0954,ACPA-positive rheumatoid arthritis (smoking interaction),2e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26272072' target='_blank'>26272072</a>
+META5,rs9275530,6:32675523:G:C,31,0.0976,ACPA-positive rheumatoid arthritis (smoking interaction),2e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26272072' target='_blank'>26272072</a>
+META5,rs9275532,6:32675634:C:G,31,0.0975,ACPA-positive rheumatoid arthritis (smoking interaction),5e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26272072' target='_blank'>26272072</a>
+META5,rs9275592,6:32680620:G:T,31,0.0975,Giant cell arteritis,1e-40,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28041642' target='_blank'>28041642</a>
+META5,rs7454108,6:32681483:T:C,31,0.0972,ACPA-positive rheumatoid arthritis (smoking interaction),2e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26272072' target='_blank'>26272072</a>
+META5,rs7454108,6:32681483:T:C,31,0.0972,Vasculitis associated with antineutrophil cytoplasmic antibody reactive to myeloperoxidase,5.0000000000000005e-25,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28029757' target='_blank'>28029757</a>
+META5,rs7454108,6:32681483:T:C,31,0.0972,Pemphigus vulgaris,3.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29857070' target='_blank'>29857070</a>
+META5,rs3957146,6:32681530:T:C,31,0.0972,ACPA-positive rheumatoid arthritis (smoking interaction),1e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26272072' target='_blank'>26272072</a>
+META5,rs3998159,6:32682019:A:C,31,0.0969,ACPA-positive rheumatoid arthritis (smoking interaction),2e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26272072' target='_blank'>26272072</a>
+META5,rs2881955,6:72479263:C:T,32,0.2736,Morningness,6.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30804565' target='_blank'>30804565</a>
+META5,rs2881955,6:72479263:C:T,32,0.2736,Chronotype,5.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30696823' target='_blank'>30696823</a>
+META5,rs10256359,7:23123877:C:T,35,0.3708,Parkinson's disease,2e-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27182965' target='_blank'>27182965</a>
+META5,rs858240,7:23284237:A:G,35,0.4108,Blood protein levels,4.00E-23,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30072576' target='_blank'>30072576</a>
+META5,rs858239,7:23286315:G:A,35,0.4117,Cerebrospinal fluid biomarker levels,2.00E-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28031287' target='_blank'>28031287</a>
+META5,rs10262243,7:23290987:G:A,35,0.3773,Blood protein levels,4.00E-19,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29875488' target='_blank'>29875488</a>
+META5,rs10262243,7:23290987:G:A,35,0.3773,Blood protein levels,6.00E-17,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29875488' target='_blank'>29875488</a>
+META5,rs199347,7:23293746:A:G,35,0.4132,Parkinson's disease,1.00E-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25064009' target='_blank'>25064009</a>
+META5,rs199347,7:23293746:A:G,35,0.4132,Parkinson's disease,4e-18,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs28458177,7:23294872:G:A,35,0.3785,Blood protein levels,5.00E-24,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30072576' target='_blank'>30072576</a>
+META5,rs10250602,7:23303701:T:C,35,0.3612,Blood protein levels,3.00E-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29875488' target='_blank'>29875488</a>
+META5,rs5850,7:23314547:C:T,35,0.3633,Blood protein levels,8e-14,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28240269' target='_blank'>28240269</a>
+META5,rs1296028,8:11698747:A:G,37,0.2685,Parkinson's disease,1e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/22451204' target='_blank'>22451204</a>
+META5,rs709822,8:11702313:C:G,37,0.2899,Triglycerides,5.00E-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30275531' target='_blank'>30275531</a>
+META5,rs3947,8:11702375:G:A,37,0.2625,Blood protein levels,2e-27,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28240269' target='_blank'>28240269</a>
+META5,rs3947,8:11702375:G:A,37,0.2625,Triglyceride levels,3.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29083408' target='_blank'>29083408</a>
+META5,rs3947,8:11702375:G:A,37,0.2625,Triglyceride levels,2.00E-23,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29083408' target='_blank'>29083408</a>
+META5,rs1692819,8:11705448:G:A,37,0.2622,Blood protein levels,5.00E-54,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29875488' target='_blank'>29875488</a>
+META5,rs1736089,8:11705870:G:A,37,0.2537,Blood protein levels,1.9999999999999995e-121,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30072576' target='_blank'>30072576</a>
+META5,rs1736089,8:11705870:G:A,37,0.2537,Blood protein levels,3e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30072576' target='_blank'>30072576</a>
+META5,rs2740594,8:11707174:A:G,37,0.2710,Parkinson's disease,5.9999999999999995e-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs1293292,8:11710369:G:A,37,0.2971,Blood protein levels,3e-48,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30072576' target='_blank'>30072576</a>
+META5,rs1293292,8:11710369:G:A,37,0.2971,Blood protein levels,1e-12,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30072576' target='_blank'>30072576</a>
+META5,rs1293292,8:11710369:G:A,37,0.2971,Blood protein levels,7.000000000000001e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30072576' target='_blank'>30072576</a>
+META5,rs16904181,8:130976074:G:A,40,0.2833,Lymphocyte counts,1e-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/27863252' target='_blank'>27863252</a>
+META5,rs591323,8:16697091:G:A,38,0.2916,Parkinson's disease,7.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/25064009' target='_blank'>25064009</a>
+META5,rs591323,8:16697091:G:A,38,0.2916,Parkinson's disease,2.0000000000000002e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs746011,8:22457804:C:T,39,0.3350,Triglycerides,2.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30275531' target='_blank'>30275531</a>
+META5,rs11778693,8:22462852:T:C,39,0.3386,Exploratory eye movement dysfunction in schizophrenia (responsive search score),8.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26242244' target='_blank'>26242244</a>
+META5,rs11778693,8:22462852:T:C,39,0.3386,Exploratory eye movement dysfunction in schizophrenia (cognitive search score),4.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26242244' target='_blank'>26242244</a>
+META5,rs1545837,8:22477807:T:C,39,0.3686,Lung function (FVC),1.00E-10,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs4242434,8:22501830:C:A,39,0.3291,Exploratory eye movement dysfunction in schizophrenia (cognitive search score),8.00E-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/26242244' target='_blank'>26242244</a>
+META5,rs2280104,8:22525980:T:C,39,0.6388,Parkinson's disease,3e-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs4066629,8:22529073:A:C,39,0.5816,Lung function (FEV1/FVC),5.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs10104039,8:22538384:T:C,39,0.6109,Spherical equivalent or myopia (age of diagnosis),2.00E-08,<a href='https://www.ncbi.nlm.nih.gov/pubmed/29808027' target='_blank'>29808027</a>
+META5,rs4872007,8:22538879:G:A,39,0.6581,Superior temporal gyrus volume,8e-06,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31530798' target='_blank'>31530798</a>
+META5,rs13294100,9:17579690:T:G,41,0.6258,Parkinson's disease,5e-13,<a href='https://www.ncbi.nlm.nih.gov/pubmed/28892059' target='_blank'>28892059</a>
+META5,rs1536076,9:17731921:T:G,41,0.2507,Parkinson's disease,5e-07,<a href='https://www.ncbi.nlm.nih.gov/pubmed/22451204' target='_blank'>22451204</a>
+META5,rs10124307,9:33803408:T:C,42,0.4016,Heel bone mineral density,7.00E-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30595370' target='_blank'>30595370</a>
+META5,rs544169,9:33956791:A:G,42,0.2689,Estimated glomerular filtration rate,2.0000000000000002e-11,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31152163' target='_blank'>31152163</a>
+META5,rs544169,9:33956791:A:G,42,0.2689,Estimated glomerular filtration rate,9.00E-15,<a href='https://www.ncbi.nlm.nih.gov/pubmed/31152163' target='_blank'>31152163</a>
+META5,rs1758632,9:34025640:C:G,42,0.5933,Type 2 diabetes,1.00E-09,<a href='https://www.ncbi.nlm.nih.gov/pubmed/30054458' target='_blank'>30054458</a>

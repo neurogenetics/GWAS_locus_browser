@@ -1,4 +1,8 @@
 #RUN LOCALLY
+#nohup R CMD BATCH GenerateWordCloudPlots.R output_wordcloud.log &
+#check progress with "jobs"
+#get jobid with "ps -ef | grep WordCloud"
+#and kill with "kill [PID]"
 
 library(data.table)#to store the search results and other data in data tables
 library (dplyr)#to select specific columns from data frames
@@ -16,6 +20,9 @@ locusnumbers <- unique(genes_by_locus$Locusnumber)
 #search_hits stores the number of search results for each gene
 search_hits <- genes_by_locus
 search_hits$'Pubmed hits gene only' <- 0
+
+#create a wordcloud directory if one doesn't exist
+dir.create(file.path("wordcloud"), showWarnings = FALSE)
 
 generatePlot <- function(gene)
 {

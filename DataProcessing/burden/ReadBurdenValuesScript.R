@@ -10,12 +10,12 @@ library (dplyr)#to select specific columns from data frames
 
 #get gene list 
 evidenceDF <- fread("genes_by_locus.csv") 
-evidenceGenes <- evidenceDF$Gene
+evidenceGenes <- evidenceDF$GENE
 
 #remove duplicate genes from evidence table gene names
 evidenceGenes <- unique(evidenceGenes)
 
-genes <- data.frame("Gene" = evidenceGenes)
+genes <- data.frame("GENE" = evidenceGenes)
 
 
 ###Burden Exome Data
@@ -108,9 +108,9 @@ burdenImputeMins$BonImpute <- ifelse(burdenImputeMins$Pval.Imputed < bonP, 1, 0)
 
 #outer join the Imputed and Exome p value mins
 burdenTable <- merge(x = burdenImputeMins, y = burdenExomeMins, by = "gene.name.out", all = TRUE)
-colnames(burdenTable)[1] <- "Gene"
+colnames(burdenTable)[1] <- "GENE"
 
-write.csv(burdenTable %>% select("Gene", "Pval.Imputed", "Pval.Exome"), file = "results/BurdenPValueData.csv", row.names = FALSE)
+write.csv(burdenTable %>% select("GENE", "Pval.Imputed", "Pval.Exome"), file = "results/BurdenPValueData.csv", row.names = FALSE)
 
 #assign 1 when either burden test is significant
 burdenTable$Burden <- ifelse((burdenTable$BonImpute==1 & !is.na(burdenTable$BonImpute)) | (burdenTable$BonExome==1 & !is.na(burdenTable$BonExome)), 1, 0)
@@ -118,6 +118,6 @@ burdenTable$Burden <- ifelse((burdenTable$BonImpute==1 & !is.na(burdenTable$BonI
 #assign NA if neither burden test has values
 burdenTable$Burden <- ifelse(is.na(burdenTable$BonImpute) & is.na(burdenTable$BonExome), NA, burdenTable$Burden)
 
-evidenceDF <- merge(evidenceDF, burdenTable %>% select("Gene", "Burden"), by = "Gene", all.x = TRUE)
+evidenceDF <- merge(evidenceDF, burdenTable %>% select("GENE", "Burden"), by = "GENE", all.x = TRUE)
 
 write.csv(evidenceDF, file = "evidence/evidence_burden.csv", row.names = FALSE)

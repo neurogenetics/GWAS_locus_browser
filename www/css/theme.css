@@ -1,0 +1,237 @@
+/*smooth scroll for the navigation dropdown*/
+html {
+  scroll-behavior: smooth;
+}
+
+/*alter the tutorial link*/
+#tutorialDiv {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 20px;
+  border-right: 1px solid #eee;
+  padding-bottom: 5px;
+}
+/*move the navigation dropdown*/
+#navSelectDiv {
+  padding-left: 30px;
+
+}
+
+/*remove the curve of the buttons for to fill in full when highlighted*/
+.bttn-minimal {
+  border-radius:0px !important;
+}
+
+/* Header Collapse Button */
+.main-header .sidebar-toggle[role="button"] {
+    font-size: 45px;
+    float: none;
+    position: absolute;
+    bottom: 0%
+}
+.sidebar-toggle{
+  color: #000000 !important; 
+  background-color: #f9f9f9 !important;
+  margin-top: 50px;
+}
+ /*set the initial outline color to white for elements highlighted in the tutorial*/
+#navSelectDiv, .sidebar-toggle, .bttn-minimal.bttn-default, #searchDiv, #gwasSelectDiv, #gwasLociTable, .accordionheader, .slider, #evidenceColButtons,.qtlcutoff,.shinyhelper-icon,.geneselect {
+  outline-color: white;
+}
+
+
+.sidebar-toggle:hover {
+  background-color: #ecf0f5 !important;
+  margin-top: 50px;
+
+}
+
+/*fix the sidebar when scrolling*/
+#sidebarCollapsed {
+  position: fixed;
+  padding-top: 115px;
+}
+
+/*shift the about section box and the first box on the data tab*/
+#headerBox, #aboutBox {
+  padding-left: 0px !important;
+}
+/*fix the header when scrolling*/
+.main-header
+{
+  position:fixed;
+  width:100%;
+  background-color: white;
+
+}
+
+
+/*push the main content down to account for the fixed header*/
+.content {
+  padding-top: 115px;
+}
+
+/* Header tab buttons*/
+.bttn-minimal.bttn-default {
+  color:black;
+}
+
+/* Splash Page */
+#splashLogo {
+  display:block;
+  margin-top: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 12px;
+  width: 600px;
+}
+
+/*resize accordion text */
+#accordion a[data-parent='#accordion']{
+  color: black !important;
+  font-size: 30px;
+}
+/*add "-" to accordion text*/
+#accordion a[data-parent='#accordion']::after{
+  content: "\2796";
+  font-size: 20px;
+  color: black ;
+  float: left !important;
+  padding-top: 8px !important;
+  padding-right: 5px !important; 
+}
+
+/* change accordion "-" to "+" when collapsed. seems to only work on certain browsers*/
+#accordion .collapsed::after{
+  content: "\02795" !important;
+
+}
+
+/*shift the position of the help buttons in the accordion headers*/
+.shinyhelper-container {
+  top: 17px !important;
+  width: 80px !important;
+}
+
+/*make the help icon and text bigger*/
+.fa-question-circle
+{ 
+  font-size: 24px; 
+}
+
+/*add text to the help icon*/
+.fa-question-circle::before {
+  content: "\f059  help";
+}
+
+
+/*increase size of logo*/
+.main-header .logo {
+  height:90px;
+  padding-top: 5px;
+  /*border-top: 5px solid #fff;*/
+
+}
+
+
+.sidebar {
+  color: #000000;
+  /*background-color: #fff;*/
+}
+
+.main-sidebar {
+  /*margin-top: 55px;*/
+}
+.wrapper, .main-sidebar{
+  background-color: #ecf0f5 !important;
+}
+
+/* color the accordions*/
+#accordion>.box{
+  border-top-color: #3c8dbc !important;
+}
+
+/*set width of group checkbox buttons*/
+.btn-group-justified{
+  display: inline-block !important;
+  
+}
+/*set width of group checkbox buttons*/
+.btn-group-justified>.btn-group {
+  display: inherit;
+  width: 8%;
+}
+
+/*set the height of the group checkbox buttons*/
+.btn-group-justified>.btn-group .btn {
+
+  height: 90px;
+}
+
+/*allow text to wrap to new line in the group checkboxbuttons*/
+.checkbtn {
+  white-space: normal !important;
+}
+
+
+/*overwrite sidebar hyperlink font colors from shinydashboardPlus*/
+.sidebar a{
+  color: #3c8dbc !important;
+}
+
+.sidebar a:hover{
+  color: #68b3de !important;
+}
+hr{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* move the jump to section drop down*/
+.navbar-custom-menu
+{
+  margin-left: 100px !important;
+}
+
+/*move the help modal exit button to the top right*/
+.modal-footer button
+{
+  position: absolute;
+  bottom: calc(100% - 40px);/*340px;*/
+  right: 1vh;
+}
+/*remove the line from the help modal footers*/
+.modal-footer
+{
+  border-top: 0px;
+}
+
+
+.tutorial-highlight
+{
+  outline: 5px solid #10ec0f59 !important;
+  background-color: #10ec0f59 !important;
+  border-right: 0px solid transparent !important;
+}
+
+
+.tutorial-input
+{
+  transition: all 0.5s ease-in-out;
+}
+
+.tutorial-selected, .tutorial-selected:hover
+{
+  outline: 5px solid #10ec0f !important;
+  background-color: #10ec0f !important;
+  z-index: 1399;
+}
+
+
+/* Draggable variant box*/
+#draggable-top {
+   z-index:1400;
+}
+#draggable-top-tutorial {
+   z-index:1401;
+}
