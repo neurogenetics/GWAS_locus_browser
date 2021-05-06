@@ -87,12 +87,12 @@ html {
 }
 
 /*resize accordion text */
-#accordion a[data-parent='#accordion']{
+a[data-toggle="collapse"] { /*a[data-parent='#accordion']{*/
   color: black !important;
   font-size: 30px;
 }
 /*add "-" to accordion text*/
-#accordion a[data-parent='#accordion']::after{
+a[data-toggle="collapse"]::after { /*a[data-parent='#accordion']::after{*/
   content: "\2796";
   font-size: 20px;
   color: black ;
@@ -102,7 +102,7 @@ html {
 }
 
 /* change accordion "-" to "+" when collapsed. seems to only work on certain browsers*/
-#accordion .collapsed::after{
+a[data-toggle="collapse"].collapsed::after{
   content: "\02795" !important;
 
 }
@@ -146,11 +146,6 @@ html {
   background-color: #ecf0f5 !important;
 }
 
-/* color the accordions*/
-#accordion>.box{
-  border-top-color: #3c8dbc !important;
-}
-
 /*set width of group checkbox buttons*/
 .btn-group-justified{
   display: inline-block !important;
@@ -187,7 +182,7 @@ hr{
   margin-bottom: 5px;
 }
 
-/* move the jump to section drop down*/
+/* add space between the sidebar toggle button and other inputs*/
 .navbar-custom-menu
 {
   margin-left: 100px !important;
