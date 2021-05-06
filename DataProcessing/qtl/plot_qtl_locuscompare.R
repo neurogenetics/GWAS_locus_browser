@@ -13,7 +13,7 @@ library(locuscomparer)
 library(data.table)
 library(dplyr)
 
-setwd("/path/to/DataProcessing/qtl")
+setwd("$PATH/Documents/Rfiles/GWASLocusBrowserProject/GWAS_locus_browser/DataProcessing/qtl")
 
 plots_to_plot <- fread("all_qtl_info.csv")
 plots_to_plot$correlation <- 0.0

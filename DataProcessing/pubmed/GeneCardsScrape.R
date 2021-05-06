@@ -4,7 +4,7 @@ library("stringr")
 library("data.table")
 library("httr")
 
-genes <- fread("/path/to/genes_by_locus.csv")
+genes <- fread("$PATH/genes_by_locus.csv")
 
 gene_names <- unique(genes$Gene)
 

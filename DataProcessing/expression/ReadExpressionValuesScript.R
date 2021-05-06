@@ -26,6 +26,8 @@
 library(data.table)#used for fread function
 library (dplyr)#used to select columns from dataframes
 
+#cut -f 1-10 $PATH/GTEX/GTEx_Analysis_2016-01-15_v7_RNASeQCv1.1.8_gene_tpm.gct | head
+
 print("reading gct file")
 gtexExpData <- fread("expression/GTEx_Analysis_2017-06-05_v8_RNASeQCv1.1.9_gene_tpm.gct")
 
